@@ -1,0 +1,17 @@
+{
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    },
+    "editor.formatOnSave": false,
+    "editor.wordWrap": "on",
+    "editor.fontSize": 14,
+    "editor.minimap.enabled": true,
+    "editor.minimap.maxColumn": 120,
+    "editor.renderLineHighlight": "all",
+    "editor.roundedSelection": true,
+
+    //ワークベンチ設定
+    "workbench.editor.enablePreview":false,
+    "workbench.editor.showTabs": true,
+    
+  }

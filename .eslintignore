@@ -1,0 +1,9 @@
+build/
+public/
+**/coverage/
+**/node_modules/
+**/*.min.js
+*.config.js
+reportWebVitals.ts
+react-app-env.d.ts
+/.eslintrc.js
