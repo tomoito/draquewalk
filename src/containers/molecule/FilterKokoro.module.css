@@ -1,0 +1,16 @@
+.btncirclestitch {
+    display: inline-block;
+    text-decoration: none;
+    /* background: #87befd; */
+    /* color: #FFF; */
+    width: 120px;
+    height: 120px;
+    line-height: 20px;
+    /* border-radius: 50%; */
+    text-align: center;
+    overflow: hidden;
+    box-shadow: 0px 0px 0px 3px #87befd;
+    border: dashed 1px #FFF;
+    transition: .4s;
+    /* background-image: url(https://www.google.com/imgres?imgurl=https%3A%2F%2Fimg.game8.jp%2F3652535%2Fe00f05232c79ca112a5d207e90a7106c.png%2Fshow&imgrefurl=https%3A%2F%2Fgame8.jp%2Fdqwalk%2F292726&tbnid=dbMXsfywtF8r7M&vet=12ahUKEwjpgc_DiqftAhUQHKYKHRIlBfQQMygCegUIARCrAQ..i&docid=dsI3cZJuua9rcM&w=220&h=220&q=%E3%83%89%E3%83%A9%E3%82%AF%E3%82%A8%E3%82%A6%E3%82%A9%E3%83%BC%E3%82%AF%20%E5%BF%83&ved=2ahUKEwjpgc_DiqftAhUQHKYKHRIlBfQQMygCegUIARCrAQ); */
+  }

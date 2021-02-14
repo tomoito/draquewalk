@@ -13,5 +13,14 @@
     //ワークベンチ設定
     "workbench.editor.enablePreview":false,
     "workbench.editor.showTabs": true,
+    "cSpell.words": [
+      "cals",
+      "custombutton",
+      "imgpath",
+      "kensho",
+      "plusplus",
+      "reduxjs",
+      "teisu"
+    ],
     
   }
