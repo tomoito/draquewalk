@@ -25,7 +25,7 @@ const ShowResult:React.FC = () => {
 
     <div className={classes.txt}>
       <div className={styles.box1}>
-        <Typography variant="h4">ステータス</Typography>
+        <Typography variant="h4">ステータス!</Typography>
       </div>
       {
                 (Object.keys(baseSum) as (keyof baseStatusFilter)[]).map((dmgUp) => (
