@@ -8,6 +8,7 @@ import {
 } from '@material-ui/core';
 import OptionSection from 'containers/molecule/OptionSection';
 import ColorSection from 'containers/molecule/ColorSection';
+import OrderSection from 'containers/molecule/OrderSection';
 
 const drawerWidth = 300;
 
@@ -87,6 +88,12 @@ const FilterSection:React.FC = () => {
         <Box className={classes.colorSection}>
           <Typography className={classes.colorText}>Color</Typography>
           <ColorSection />
+        </Box>
+        <br />
+        <Divider />
+        <Box className={classes.colorSection}>
+          <Typography className={classes.colorText}>並び替え</Typography>
+          <OrderSection />
         </Box>
         <br />
         <Divider />

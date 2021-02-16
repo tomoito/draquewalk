@@ -5,7 +5,7 @@
         "cost": 1,
         "color": "黄",
         "追加スキル": "3",
-        "imgpath": "c5784806-6222-4187-ae19-548ca865bf1a.jpeg",
+        "imgpath": "999_38df57a0-16ac-4bb1-990c-da302f70abdf.jpeg",
         "status": {
             "HP": 4,
             "MP": 5,
@@ -127,7 +127,7 @@
         "cost": 3,
         "color": "黄",
         "追加スキル": "",
-        "imgpath": "de657896-60bf-4538-9ca5-76b4d829f814.jpeg",
+        "imgpath": "1_3538db39-5787-457c-aa37-27210fe60a84.jpeg",
         "status": {
             "HP": 4,
             "MP": 3,
@@ -146,7 +146,7 @@
         "cost": 3,
         "color": "緑",
         "追加スキル": "",
-        "imgpath": "fd29eb9f-59ab-4d22-86ac-379908471264.jpeg",
+        "imgpath": "2_766dde0b-b923-401d-a0e4-938d17bc1a60.jpeg",
         "status": {
             "HP": 3,
             "MP": 5,
@@ -165,7 +165,7 @@
         "cost": 5,
         "color": "赤",
         "追加スキル": "",
-        "imgpath": "08e5247e-55d5-43c9-8072-54f39d39f965.jpeg",
+        "imgpath": "3_24856be5-4a3b-4a8e-ac7d-8eded5833a93.jpeg",
         "status": {
             "HP": 5,
             "MP": 3,
@@ -184,7 +184,7 @@
         "cost": 8,
         "color": "緑",
         "追加スキル": "",
-        "imgpath": "b71cbfff-da8f-44f7-88ec-815ecb2a06e8.jpeg",
+        "imgpath": "4_cb52f157-b547-40cc-aa72-d42bb2ec4c0d.jpeg",
         "status": {
             "HP": 7,
             "MP": 8,
@@ -203,7 +203,7 @@
         "cost": 6,
         "color": "紫",
         "追加スキル": "",
-        "imgpath": "b2e48105-0779-4fc0-8c94-936360099cde.jpeg",
+        "imgpath": "5_2af7f898-3acd-4b42-bdb1-bacd4cef0e9f.jpeg",
         "status": {
             "HP": 6,
             "MP": 7,
@@ -222,7 +222,7 @@
         "cost": 6,
         "color": "緑",
         "追加スキル": "",
-        "imgpath": "9dc97cb4-990c-4b8a-be82-7ea1449ae206.jpeg",
+        "imgpath": "6_aa9eb6f3-8d7f-4ae9-9f26-0ca951707044.jpeg",
         "status": {
             "HP": 5,
             "MP": 6,
@@ -243,7 +243,7 @@
         "cost": 14,
         "color": "緑",
         "追加スキル": "",
-        "imgpath": "0921e931-5ee4-44e5-af1c-52e351f9737e.jpeg",
+        "imgpath": "7_b6fa6cec-2723-4004-8a01-c8e3bf1e0b72.jpeg",
         "status": {
             "HP": 13,
             "MP": 13,
@@ -262,7 +262,7 @@
         "cost": 8,
         "color": "黄",
         "追加スキル": "きあいため",
-        "imgpath": "820d37e6-e5c3-4f33-b725-72a6f731b6f2.jpeg",
+        "imgpath": "8_559521a7-1992-48d3-a5df-c91d5296fb6e.jpeg",
         "status": {
             "HP": 9,
             "MP": 4,
@@ -281,7 +281,7 @@
         "cost": 8,
         "color": "赤",
         "追加スキル": "スカラ",
-        "imgpath": "1ad6e094-f5dd-49d5-a4ad-1b0112dcfe2a.jpeg",
+        "imgpath": "9_b668891f-07b7-47c0-889c-245317e42cd7.jpeg",
         "status": {
             "HP": 12,
             "MP": 4,
@@ -303,7 +303,7 @@
         "cost": 9,
         "color": "青",
         "追加スキル": "",
-        "imgpath": "bc12c343-b38b-4c46-9fc2-cb4a2527c0a3.jpeg",
+        "imgpath": "10_f8165773-05f0-471c-8ee4-ee815bde3b29.jpeg",
         "status": {
             "HP": 9,
             "MP": 7,
@@ -322,7 +322,7 @@
         "cost": 9,
         "color": "青",
         "追加スキル": "",
-        "imgpath": "2880e177-c38b-4a60-aed8-e864a62c7c3d.jpeg",
+        "imgpath": "11_cfc739b4-1f52-44e2-8b93-e3f654da1056.jpeg",
         "status": {
             "HP": 11,
             "MP": 8,
@@ -343,7 +343,7 @@
         "cost": 9,
         "color": "紫",
         "追加スキル": "ルカニ",
-        "imgpath": "22ad78e4-34e7-4f78-8d74-3eebfafbb81d.jpeg",
+        "imgpath": "12_86a094c7-db16-48e7-af95-badff073f031.jpeg",
         "status": {
             "HP": 13,
             "MP": 16,
@@ -367,7 +367,7 @@
         "cost": 17,
         "color": "赤",
         "追加スキル": "メラ",
-        "imgpath": "6399211b-c574-42bb-a9ec-06a2f8b438d3.jpeg",
+        "imgpath": "13_ca37aab9-39db-44c0-9f9b-6eba3dc427cd.jpeg",
         "status": {
             "HP": 9,
             "MP": 15,
@@ -391,7 +391,7 @@
         "cost": 11,
         "color": "赤",
         "追加スキル": "",
-        "imgpath": "8866b210-974c-4694-8fe3-27dfbda8d230.jpeg",
+        "imgpath": "14_1fd33359-b352-4ae3-9b6b-77988614a6e5.jpeg",
         "status": {
             "HP": 11,
             "MP": 4,
@@ -410,7 +410,7 @@
         "cost": 12,
         "color": "黄",
         "追加スキル": "きあいため",
-        "imgpath": "941cb1e3-3f2d-4f59-a50c-b568ed667217.jpeg",
+        "imgpath": "15_42cc06b7-2aaa-474d-bb00-05ed0f92aca2.jpeg",
         "status": {
             "HP": 15,
             "MP": 6,
@@ -429,7 +429,7 @@
         "cost": 12,
         "color": "青",
         "追加スキル": "",
-        "imgpath": "512d3bf5-fa17-485b-9bab-4924f2d94dd8.jpeg",
+        "imgpath": "16_56bab961-39eb-4878-ae4b-92bc7b0b4cd9.jpeg",
         "status": {
             "HP": 11,
             "MP": 9,
@@ -448,7 +448,7 @@
         "cost": 12,
         "color": "赤",
         "追加スキル": "",
-        "imgpath": "c37845e6-6038-4207-9434-4285e711e536.jpeg",
+        "imgpath": "17_4c876152-9335-4489-978f-36e818e5855b.jpeg",
         "status": {
             "HP": 8,
             "MP": 5,
@@ -469,7 +469,7 @@
         "cost": 12,
         "color": "紫",
         "追加スキル": "メラ",
-        "imgpath": "beb1a1c5-c716-4d71-a977-6702188d38a2.jpeg",
+        "imgpath": "18_2eb3e4f8-851b-4cf1-95af-d3ca89e50d8e.jpeg",
         "status": {
             "HP": 9,
             "MP": 15,
@@ -491,7 +491,7 @@
         "cost": 17,
         "color": "紫",
         "追加スキル": "",
-        "imgpath": "e9bcff9e-50ae-4012-8c0b-b6da3bb0d20b.jpeg",
+        "imgpath": "19_264956d5-4939-43af-a147-636846440c6f.jpeg",
         "status": {
             "HP": 15,
             "MP": 19,
@@ -510,7 +510,7 @@
         "cost": 18,
         "color": "黄",
         "追加スキル": "",
-        "imgpath": "d9abd44f-68d0-4cd8-9a78-86efacbec274.jpeg",
+        "imgpath": "20_701438dd-d2df-4b66-8495-e9bf4aaf6886.jpeg",
         "status": {
             "HP": 16,
             "MP": 6,
@@ -529,7 +529,7 @@
         "cost": 18,
         "color": "黄",
         "追加スキル": "メラ",
-        "imgpath": "4e94692e-13e8-4e36-895d-2290e42ca90f.jpeg",
+        "imgpath": "21_8ec443be-45e9-4eec-8f53-892da98f2f65.jpeg",
         "status": {
             "HP": 26,
             "MP": 8,
@@ -552,7 +552,7 @@
         "cost": 15,
         "color": "黄",
         "追加スキル": "かぶとわり",
-        "imgpath": "43d21d85-427b-4fd3-bc7d-4a39734b3ba7.jpeg",
+        "imgpath": "22_75714f3a-d8a7-44b2-950e-6f81e2209914.jpeg",
         "status": {
             "HP": 18,
             "MP": 7,
@@ -571,7 +571,7 @@
         "cost": 15,
         "color": "紫",
         "追加スキル": "メラ",
-        "imgpath": "0d1c89e3-4606-4119-b61c-f03f00f6a6e1.jpeg",
+        "imgpath": "23_2c8109ba-a8d8-4109-ab97-5e8d17f0b624.jpeg",
         "status": {
             "HP": 15,
             "MP": 19,
@@ -592,7 +592,7 @@
         "cost": 15,
         "color": "青",
         "追加スキル": "",
-        "imgpath": "4807e693-a293-435e-983a-87e161cfb0de.jpeg",
+        "imgpath": "24_235314dc-79d0-4d7b-bf8e-ba14abfb925e.jpeg",
         "status": {
             "HP": 19,
             "MP": 13,
@@ -614,7 +614,7 @@
         "cost": 21,
         "color": "黄",
         "追加スキル": "きあいため",
-        "imgpath": "d9abd44f-68d0-4cd8-9a78-86efacbec274.jpeg",
+        "imgpath": "25_18fa7ef8-3c0f-44a4-8bd1-a4d5ef98b30a.jpeg",
         "status": {
             "HP": 34,
             "MP": 12,
@@ -638,7 +638,7 @@
         "cost": 17,
         "color": "青",
         "追加スキル": "",
-        "imgpath": "57011114-c0c4-4a08-adb6-ddff38bd978d.jpeg",
+        "imgpath": "26_52728c29-2485-438d-8755-5f27d376a535.jpeg",
         "status": {
             "HP": 16,
             "MP": 11,
@@ -657,7 +657,7 @@
         "cost": 17,
         "color": "黄",
         "追加スキル": "",
-        "imgpath": "c92d7cb8-2da7-4638-952f-5f95a359000a.jpeg",
+        "imgpath": "27_aaab415d-62d4-47f4-b7a2-0b18b24ba79d.jpeg",
         "status": {
             "HP": 24,
             "MP": 9,
@@ -679,7 +679,7 @@
         "cost": 21,
         "color": "青",
         "追加スキル": "マヌーサ",
-        "imgpath": "5a7eea75-57da-47c8-aa48-247cab68bbfb.jpeg",
+        "imgpath": "28_b52e4f9f-e392-43bd-98ee-052977ee46f3.jpeg",
         "status": {
             "HP": 28,
             "MP": 20,
@@ -700,7 +700,7 @@
         "cost": 32,
         "color": "紫",
         "追加スキル": "",
-        "imgpath": "de657896-60bf-4538-9ca5-76b4d829f814.jpeg",
+        "imgpath": "29_ab53bbbd-d9d2-42a8-af66-b8792ac6df90.jpeg",
         "status": {
             "HP": 28,
             "MP": 35,
@@ -719,7 +719,7 @@
         "cost": 20,
         "color": "緑",
         "追加スキル": "マホトーン",
-        "imgpath": "ebb08cc5-b3de-4bd1-a966-2c432b57b029.jpeg",
+        "imgpath": "30_1057410b-1591-4284-a273-474998671b70.jpeg",
         "status": {
             "HP": 18,
             "MP": 18,
@@ -738,7 +738,7 @@
         "cost": 21,
         "color": "緑",
         "追加スキル": "",
-        "imgpath": "112f74fe-c3c3-43cf-baa9-afbe739740f1.jpeg",
+        "imgpath": "31_7b93349f-0ffb-4d8b-a6be-43780e8a9778.jpeg",
         "status": {
             "HP": 22,
             "MP": 22,
@@ -759,7 +759,7 @@
         "cost": 18,
         "color": "赤",
         "追加スキル": "",
-        "imgpath": "e914703a-5e86-4208-bee2-3d3606df3938.jpeg",
+        "imgpath": "32_aeefd433-edc4-41ec-aaac-689676701b88.jpeg",
         "status": {
             "HP": 17,
             "MP": 6,
@@ -778,7 +778,7 @@
         "cost": 23,
         "color": "赤",
         "追加スキル": "きあいため",
-        "imgpath": "c7cdf8de-415a-40ee-a25a-2e5d138653aa.jpeg",
+        "imgpath": "33_1c6f6270-2835-4d2f-bc62-ad20f852df31.jpeg",
         "status": {
             "HP": 22,
             "MP": 7,
@@ -797,7 +797,7 @@
         "cost": 24,
         "color": "紫",
         "追加スキル": "バギ",
-        "imgpath": "08e5247e-55d5-43c9-8072-54f39d39f965.jpeg",
+        "imgpath": "34_ce59b812-1cca-46ba-a063-eaa154111655.jpeg",
         "status": {
             "HP": 23,
             "MP": 40,
@@ -819,7 +819,7 @@
         "cost": 21,
         "color": "紫",
         "追加スキル": "メラ",
-        "imgpath": "9a2e53d4-fe74-479e-9d97-bdce6366594a.jpeg",
+        "imgpath": "35_43fd22ac-465e-4a80-9286-3006f02004dc.jpeg",
         "status": {
             "HP": 19,
             "MP": 23,
@@ -838,7 +838,7 @@
         "cost": 21,
         "color": "黄",
         "追加スキル": "",
-        "imgpath": "b16bdd40-3b93-4e0b-b1bc-8f25ea35395e.jpeg",
+        "imgpath": "36_50dbffd3-cbc3-43a6-8864-3c7839871e3b.jpeg",
         "status": {
             "HP": 26,
             "MP": 9,
@@ -857,7 +857,7 @@
         "cost": 26,
         "color": "紫",
         "追加スキル": "メラ",
-        "imgpath": "eb790519-8f35-40b1-9019-eb8da8a99b87.jpeg",
+        "imgpath": "37_20968baa-a33f-4acb-ad73-926d6201128b.jpeg",
         "status": {
             "HP": 23,
             "MP": 28,
@@ -876,7 +876,7 @@
         "cost": 30,
         "color": "赤",
         "追加スキル": "",
-        "imgpath": "2198957e-948d-46b6-8508-1cc92fd652e2.jpeg",
+        "imgpath": "38_7a6b56ae-5447-47aa-8e77-8094b020b43a.jpeg",
         "status": {
             "HP": 18,
             "MP": 11,
@@ -898,7 +898,7 @@
         "cost": 24,
         "color": "緑",
         "追加スキル": "ホイミ",
-        "imgpath": "a7e2ed96-6ca2-4372-93d8-67d3a439b683.jpeg",
+        "imgpath": "39_82c5e18a-4e67-42bf-af98-573f008b66e3.jpeg",
         "status": {
             "HP": 23,
             "MP": 22,
@@ -917,7 +917,7 @@
         "cost": 24,
         "color": "赤",
         "追加スキル": "",
-        "imgpath": "b3312e70-c0fd-41f5-b123-9a65a6a10baa.jpeg",
+        "imgpath": "40_5b95f755-ae10-4227-b6fd-26ec25b06dc6.jpeg",
         "status": {
             "HP": 38,
             "MP": 7,
@@ -938,7 +938,7 @@
         "cost": 29,
         "color": "緑",
         "追加スキル": "メラ",
-        "imgpath": "05156591-2432-471b-b313-a44120eb6c97.jpeg",
+        "imgpath": "41_926cb91b-6c09-46c7-82b5-81068699b7a2.jpeg",
         "status": {
             "HP": 32,
             "MP": 31,
@@ -961,7 +961,7 @@
         "cost": 32,
         "color": "緑",
         "追加スキル": "ベホイミ",
-        "imgpath": "66c9cef1-8591-4849-9e14-d0a5078875bc.jpeg",
+        "imgpath": "42_929692ea-493a-4b05-84f6-fd60afcf156f.jpeg",
         "status": {
             "HP": 44,
             "MP": 44,
@@ -985,7 +985,7 @@
         "cost": 26,
         "color": "黄",
         "追加スキル": "",
-        "imgpath": "27e847cb-a1db-4d6a-a407-61964cfb5deb.jpeg",
+        "imgpath": "43_41911066-85e4-4801-b5f7-91949326d5db.jpeg",
         "status": {
             "HP": 31,
             "MP": 11,
@@ -1004,7 +1004,7 @@
         "cost": 26,
         "color": "緑",
         "追加スキル": "",
-        "imgpath": "c5784806-6222-4187-ae19-548ca865bf1a.jpeg",
+        "imgpath": "44_e937a50c-47ac-4423-9b86-fe88274b214e.jpeg",
         "status": {
             "HP": 34,
             "MP": 36,
@@ -1026,7 +1026,7 @@
         "cost": 30,
         "color": "緑",
         "追加スキル": "",
-        "imgpath": "14670a99-dc74-4854-916d-42673c69a428.jpeg",
+        "imgpath": "45_88724d5c-3003-41cf-8550-abaa98c776ea.jpeg",
         "status": {
             "HP": 28,
             "MP": 28,
@@ -1045,7 +1045,7 @@
         "cost": 33,
         "color": "赤",
         "追加スキル": "きあいため",
-        "imgpath": "4f68a71c-1d32-4117-819c-88bf0e46eda0.jpeg",
+        "imgpath": "46_09b73128-02a8-45b0-a2c9-9a9d5385caaf.jpeg",
         "status": {
             "HP": 42,
             "MP": 13,
@@ -1069,7 +1069,7 @@
         "cost": 27,
         "color": "青",
         "追加スキル": "ラリホー",
-        "imgpath": "dff897db-cf44-4996-8655-7baa2564c1bc.jpeg",
+        "imgpath": "47_8dda1c16-ba12-4713-a7a2-f655e207edbd.jpeg",
         "status": {
             "HP": 26,
             "MP": 18,
@@ -1088,7 +1088,7 @@
         "cost": 27,
         "color": "紫",
         "追加スキル": "ヒャド",
-        "imgpath": "2e7d2da6-4bb4-4061-a56f-b1b9a8c135a7.jpeg",
+        "imgpath": "48_97d1ea70-40e3-451a-abd5-d521f20f129a.jpeg",
         "status": {
             "HP": 27,
             "MP": 33,
@@ -1109,7 +1109,7 @@
         "cost": 27,
         "color": "緑",
         "追加スキル": "",
-        "imgpath": "b16bdd40-3b93-4e0b-b1bc-8f25ea35395e.jpeg",
+        "imgpath": "49_3cc6e059-02f7-424b-a865-d6245f275805.jpeg",
         "status": {
             "HP": 20,
             "MP": 33,
@@ -1133,7 +1133,7 @@
         "cost": 29,
         "color": "赤",
         "追加スキル": "アサシンアタック",
-        "imgpath": "1b9d67f7-88de-4d29-8cba-8d62f50e500d.jpeg",
+        "imgpath": "50_5e2bae39-5840-485d-8b0d-e5f609f748b5.jpeg",
         "status": {
             "HP": 27,
             "MP": 9,
@@ -1152,7 +1152,7 @@
         "cost": 33,
         "color": "黄",
         "追加スキル": "きあいため",
-        "imgpath": "bd735c6d-3efe-4098-84fd-1557162b6dc5.jpeg",
+        "imgpath": "51_a6ec3b97-205c-4e7f-9600-ec4928bee46a.jpeg",
         "status": {
             "HP": 44,
             "MP": 13,
@@ -1173,7 +1173,7 @@
         "cost": 36,
         "color": "赤",
         "追加スキル": "",
-        "imgpath": "806163eb-e1d0-4bef-95d2-a0c6c55b4ed6.jpeg",
+        "imgpath": "52_2c96475b-3f04-4364-aa7e-79911d248fd9.jpeg",
         "status": {
             "HP": 35,
             "MP": 11,
@@ -1192,7 +1192,7 @@
         "cost": 30,
         "color": "黄",
         "追加スキル": "",
-        "imgpath": "d2ff486a-c1d7-49cd-aa7a-3cad57ad0f07.jpeg",
+        "imgpath": "53_d57cd45b-138a-4a3f-80ca-779041e8ccfa.jpeg",
         "status": {
             "HP": 36,
             "MP": 13,
@@ -1211,7 +1211,7 @@
         "cost": 30,
         "color": "青",
         "追加スキル": "ヒャド",
-        "imgpath": "d640ea3b-1d62-41ed-8d5e-824f268ff3df.jpeg",
+        "imgpath": "54_83d68b03-d64d-401f-8e04-f2851561a759.jpeg",
         "status": {
             "HP": 31,
             "MP": 22,
@@ -1232,7 +1232,7 @@
         "cost": 32,
         "color": "紫",
         "追加スキル": "メラ",
-        "imgpath": "de657896-60bf-4538-9ca5-76b4d829f814.jpeg",
+        "imgpath": "55_49bdf2fa-955f-4119-a1be-227f1ddf4449.jpeg",
         "status": {
             "HP": 40,
             "MP": 52,
@@ -1255,7 +1255,7 @@
         "cost": 32,
         "color": "緑",
         "追加スキル": "メラミ",
-        "imgpath": "afdb9d4c-d949-4c11-b1fa-341ec7022655.jpeg",
+        "imgpath": "56_62f24ede-ee3c-438c-836f-809697eaee8f.jpeg",
         "status": {
             "HP": 42,
             "MP": 44,
@@ -1278,7 +1278,7 @@
         "cost": 32,
         "color": "青",
         "追加スキル": "ヒャド",
-        "imgpath": "b9a2b2d9-78e9-4111-b798-220ff2ba0b8c.jpeg",
+        "imgpath": "57_31adb726-c477-4bd0-b0c6-12bb494f48d4.jpeg",
         "status": {
             "HP": 18,
             "MP": 24,
@@ -1301,7 +1301,7 @@
         "cost": 32,
         "color": "黄",
         "追加スキル": "ジバリア",
-        "imgpath": "89b97688-265f-42b7-be7b-8a25aad31614.jpeg",
+        "imgpath": "58_e46d7c01-65c6-4379-8b45-1d6e2a26e52a.jpeg",
         "status": {
             "HP": 45,
             "MP": 13,
@@ -1324,7 +1324,7 @@
         "cost": 32,
         "color": "黄",
         "追加スキル": "きあいため",
-        "imgpath": "74ce39de-8b9f-42ef-9183-00428c13a5b7.jpeg",
+        "imgpath": "59_061fca90-18e4-468d-9894-a19a79b19aa2.jpeg",
         "status": {
             "HP": 29,
             "MP": 9,
@@ -1347,7 +1347,7 @@
         "cost": 32,
         "color": "青",
         "追加スキル": "",
-        "imgpath": "742f39c0-d0cf-4b77-92b2-48c7ac793cde.jpeg",
+        "imgpath": "60_c0d59ff6-57d1-42d2-8c5a-6d8952bd4758.jpeg",
         "status": {
             "HP": 42,
             "MP": 30,
@@ -1369,7 +1369,7 @@
         "cost": 32,
         "color": "緑",
         "追加スキル": "",
-        "imgpath": "34000cc6-3acf-44c5-94a2-cbcb938aaf18.jpeg",
+        "imgpath": "61_3c20a2bb-8238-411f-b8d8-85d4a663e6ab.jpeg",
         "status": {
             "HP": 21,
             "MP": 35,
@@ -1392,7 +1392,7 @@
         "cost": 32,
         "color": "紫",
         "追加スキル": "",
-        "imgpath": "49cd520a-ef63-4e86-864f-f0b5e1c4db0c.jpeg",
+        "imgpath": "62_338bca73-5348-4509-ab5a-8d90d5da798f.jpeg",
         "status": {
             "HP": 40,
             "MP": 52,
@@ -1415,7 +1415,7 @@
         "cost": 35,
         "color": "緑",
         "追加スキル": "",
-        "imgpath": "b9a2b2d9-78e9-4111-b798-220ff2ba0b8c.jpeg",
+        "imgpath": "63_b8951ee4-0f66-457e-ae38-35764fc0acce.jpeg",
         "status": {
             "HP": 32,
             "MP": 32,
@@ -1434,7 +1434,7 @@
         "cost": 33,
         "color": "青",
         "追加スキル": "",
-        "imgpath": "2d009b53-29e7-4e42-a66c-0e870d78cc48.jpeg",
+        "imgpath": "64_9be8ad48-4084-4a08-b46f-2c216b9b5630.jpeg",
         "status": {
             "HP": 31,
             "MP": 21,
@@ -1453,7 +1453,7 @@
         "cost": 35,
         "color": "黄",
         "追加スキル": "",
-        "imgpath": "972423ab-08ae-4cdc-8872-927adf4f6f68.jpeg",
+        "imgpath": "65_be17e39f-1cdb-454c-b76b-c37ea933cab9.jpeg",
         "status": {
             "HP": 41,
             "MP": 15,
@@ -1472,7 +1472,7 @@
         "cost": 44,
         "color": "紫",
         "追加スキル": "ベホイミ",
-        "imgpath": "eaae7a63-bf24-4116-8231-474649bdf3c7.jpeg",
+        "imgpath": "66_6ac54b66-b605-4eee-b811-3aad2a86327a.jpeg",
         "status": {
             "HP": 38,
             "MP": 46,
@@ -1491,7 +1491,7 @@
         "cost": 38,
         "color": "紫",
         "追加スキル": "ベホイミ",
-        "imgpath": "c5784806-6222-4187-ae19-548ca865bf1a.jpeg",
+        "imgpath": "67_70578e69-a210-412f-9b3d-87b6ea448ca2.jpeg",
         "status": {
             "HP": 33,
             "MP": 41,
@@ -1510,7 +1510,7 @@
         "cost": 39,
         "color": "青",
         "追加スキル": "",
-        "imgpath": "3b055761-9a7d-4a99-b82b-ab249c1e0ea0.jpeg",
+        "imgpath": "68_c60e87bc-d6b3-4075-81e9-11138e2681be.jpeg",
         "status": {
             "HP": 27,
             "MP": 38,
@@ -1533,7 +1533,7 @@
         "cost": 35,
         "color": "紫",
         "追加スキル": "ヒャド",
-        "imgpath": "3b055761-9a7d-4a99-b82b-ab249c1e0ea0.jpeg",
+        "imgpath": "69_8d4420fd-2f19-4d40-8825-92fb9607d8fb.jpeg",
         "status": {
             "HP": 44,
             "MP": 56,
@@ -1555,7 +1555,7 @@
         "cost": 39,
         "color": "赤",
         "追加スキル": "",
-        "imgpath": "596dff15-8448-4770-9c70-257bfa31d44a.jpeg",
+        "imgpath": "70_a738e754-3ede-4a63-a88b-1e31f9306a85.jpeg",
         "status": {
             "HP": 37,
             "MP": 12,
@@ -1574,7 +1574,7 @@
         "cost": 42,
         "color": "黄",
         "追加スキル": "",
-        "imgpath": "daee04bf-c6d6-4309-890d-412066651ce9.jpeg",
+        "imgpath": "71_d5576c2f-4085-467a-9fd6-b2305c97c936.jpeg",
         "status": {
             "HP": 49,
             "MP": 19,
@@ -1593,7 +1593,7 @@
         "cost": 75,
         "color": "赤",
         "追加スキル": "きあいため",
-        "imgpath": "3365a303-6e11-453a-9af8-b4664a403a76.jpeg",
+        "imgpath": "72_a97e7226-cc51-43b3-93e2-41b622b4bbd7.jpeg",
         "status": {
             "HP": 74,
             "MP": 28,
@@ -1615,7 +1615,7 @@
         "cost": 36,
         "color": "緑",
         "追加スキル": "ルカニ",
-        "imgpath": "eac4240b-b009-4353-a123-ea77503ca7cd.jpeg",
+        "imgpath": "73_7e622e6e-ea80-4f11-9e63-fd75c7bdf40d.jpeg",
         "status": {
             "HP": 22,
             "MP": 36,
@@ -1636,7 +1636,7 @@
         "cost": 44,
         "color": "赤",
         "追加スキル": "",
-        "imgpath": "bd1e03c2-0afd-496e-9412-f74b2e6cf931.jpeg",
+        "imgpath": "74_c592a292-f082-4e18-b5e6-335a3304df34.jpeg",
         "status": {
             "HP": 41,
             "MP": 14,
@@ -1655,7 +1655,7 @@
         "cost": 48,
         "color": "緑",
         "追加スキル": "",
-        "imgpath": "f9d7373b-8e6f-4404-abb6-99072ee2b020.jpeg",
+        "imgpath": "75_619b3d05-e0cb-42c3-bdf7-6720ea312adc.jpeg",
         "status": {
             "HP": 62,
             "MP": 64,
@@ -1677,7 +1677,7 @@
         "cost": 39,
         "color": "緑",
         "追加スキル": "",
-        "imgpath": "3365a303-6e11-453a-9af8-b4664a403a76.jpeg",
+        "imgpath": "76_646f6828-8062-44a8-89eb-bfe3d755bf43.jpeg",
         "status": {
             "HP": 36,
             "MP": 36,
@@ -1696,7 +1696,7 @@
         "cost": 39,
         "color": "紫",
         "追加スキル": "イオ",
-        "imgpath": "fc9af53b-a91c-489b-868d-d02e6fe93979.jpeg",
+        "imgpath": "77_b376ac67-8ff8-40e4-a12b-da803f4d24aa.jpeg",
         "status": {
             "HP": 26,
             "MP": 46,
@@ -1717,7 +1717,7 @@
         "cost": 39,
         "color": "黄",
         "追加スキル": "かぶとわり",
-        "imgpath": "63d2e3e0-34f3-4107-a9dd-c9d3ca7275de.jpeg",
+        "imgpath": "78_a8b34beb-a83e-41de-ade4-b5b4280cbb1a.jpeg",
         "status": {
             "HP": 55,
             "MP": 21,
@@ -1739,7 +1739,7 @@
         "cost": 39,
         "color": "紫",
         "追加スキル": "メラ",
-        "imgpath": "d45c0a6f-589d-4923-acc0-efe87c395c9b.jpeg",
+        "imgpath": "79_38df57a0-16ac-4bb1-990c-da302f70abdf.jpeg",
         "status": {
             "HP": 45,
             "MP": 56,
@@ -1763,7 +1763,7 @@
         "cost": 48,
         "color": "赤",
         "追加スキル": "マホトーン",
-        "imgpath": "1157ef9a-c990-43f2-be85-c350c129e93d.jpeg",
+        "imgpath": "80_cec11706-ad33-4967-9eac-3e59c2e196c2.jpeg",
         "status": {
             "HP": 45,
             "MP": 15,
@@ -1782,7 +1782,7 @@
         "cost": 60,
         "color": "緑",
         "追加スキル": "",
-        "imgpath": "4807e693-a293-435e-983a-87e161cfb0de.jpeg",
+        "imgpath": "81_bcf47fe8-2efa-4869-9990-1f97acb77de8.jpeg",
         "status": {
             "HP": 51,
             "MP": 51,
@@ -1801,7 +1801,7 @@
         "cost": 51,
         "color": "黄",
         "追加スキル": "マホトーン",
-        "imgpath": "6e85298f-310e-422d-8faa-a1baa8d8e7a9.jpeg",
+        "imgpath": "82_afeaa712-6c3b-4545-a6ef-ac7b42a65b25.jpeg",
         "status": {
             "HP": 50,
             "MP": 15,
@@ -1825,7 +1825,7 @@
         "cost": 41,
         "color": "青",
         "追加スキル": "",
-        "imgpath": "294abab9-2432-4b3c-bc38-526fbf68ce4d.jpeg",
+        "imgpath": "83_2c34b800-eab1-4e4f-a8c0-e0cbb7be9356.jpeg",
         "status": {
             "HP": 37,
             "MP": 26,
@@ -1844,7 +1844,7 @@
         "cost": 41,
         "color": "紫",
         "追加スキル": "",
-        "imgpath": "0563f80a-3f05-433f-b9e2-9486ddc79840.jpeg",
+        "imgpath": "84_d273a310-9bdf-4966-9222-e88d7611a850.jpeg",
         "status": {
             "HP": 42,
             "MP": 54,
@@ -1865,7 +1865,7 @@
         "cost": 42,
         "color": "赤",
         "追加スキル": "",
-        "imgpath": "b2e48105-0779-4fc0-8c94-936360099cde.jpeg",
+        "imgpath": "85_2331d7f5-1290-4e8b-8521-9d7383290652.jpeg",
         "status": {
             "HP": 65,
             "MP": 10,
@@ -1886,7 +1886,7 @@
         "cost": 45,
         "color": "緑",
         "追加スキル": "メラ",
-        "imgpath": "7d297ace-b199-4c8a-9612-3f86c071a960.jpeg",
+        "imgpath": "86_150af868-adde-4691-a436-159c56669a3e.jpeg",
         "status": {
             "HP": 41,
             "MP": 40,
@@ -1905,7 +1905,7 @@
         "cost": 48,
         "color": "青",
         "追加スキル": "ザキ",
-        "imgpath": "478afa2d-d7e2-454c-91bf-65b6aa596abb.jpeg",
+        "imgpath": "87_f8c17867-50dc-409d-994c-745bc6fcf669.jpeg",
         "status": {
             "HP": 57,
             "MP": 42,
@@ -1926,7 +1926,7 @@
         "cost": 44,
         "color": "黄",
         "追加スキル": "",
-        "imgpath": "0921e931-5ee4-44e5-af1c-52e351f9737e.jpeg",
+        "imgpath": "88_3d1184e2-be20-487c-837e-0d58c020032c.jpeg",
         "status": {
             "HP": 40,
             "MP": 12,
@@ -1945,7 +1945,7 @@
         "cost": 45,
         "color": "黄",
         "追加スキル": "",
-        "imgpath": "25462a38-6ea8-4a30-a795-83682e95dd8d.jpeg",
+        "imgpath": "89_757d5d9f-222f-4fbf-87e2-cd479730da14.jpeg",
         "status": {
             "HP": 57,
             "MP": 18,
@@ -1966,7 +1966,7 @@
         "cost": 45,
         "color": "青",
         "追加スキル": "",
-        "imgpath": "26750e46-2c25-4b37-b565-dc97d0388267.jpeg",
+        "imgpath": "90_83aa74f0-f3bd-4715-9966-ba3d5f8fa436.jpeg",
         "status": {
             "HP": 55,
             "MP": 38,
@@ -1989,7 +1989,7 @@
         "cost": 51,
         "color": "青",
         "追加スキル": "",
-        "imgpath": "dabb6751-4046-40ce-b657-8ac0335ff3b4.jpeg",
+        "imgpath": "91_c6a6112e-3c57-4511-aee2-e3a4d5d78260.jpeg",
         "status": {
             "HP": 46,
             "MP": 32,
@@ -2008,7 +2008,7 @@
         "cost": 54,
         "color": "紫",
         "追加スキル": "イオラ",
-        "imgpath": "a261e472-5b22-4b18-8bac-3fb6c09101d0.jpeg",
+        "imgpath": "92_ac30f9cf-4f56-4046-a744-e96c77aa66a8.jpeg",
         "status": {
             "HP": 65,
             "MP": 83,
@@ -2031,7 +2031,7 @@
         "cost": 47,
         "color": "紫",
         "追加スキル": "メラ",
-        "imgpath": "beb1a1c5-c716-4d71-a977-6702188d38a2.jpeg",
+        "imgpath": "93_664441ad-9b8d-4398-845e-d0aba57b65a3.jpeg",
         "status": {
             "HP": 60,
             "MP": 73,
@@ -2055,7 +2055,7 @@
         "cost": 50,
         "color": "紫",
         "追加スキル": "メラミ",
-        "imgpath": "f18dd195-04db-4d81-a0df-7e514cd9f16c.jpeg",
+        "imgpath": "94_2ad1ff38-3772-40f5-a8d8-5c3e7790cfb4.jpeg",
         "status": {
             "HP": 42,
             "MP": 52,
@@ -2074,7 +2074,7 @@
         "cost": 54,
         "color": "赤",
         "追加スキル": "バギマ",
-        "imgpath": "6e2af337-1a13-4d08-b2b6-cc171a1b55c6.jpeg",
+        "imgpath": "95_4e79607c-84f6-4671-8652-6be955ebcf8f.jpeg",
         "status": {
             "HP": 73,
             "MP": 25,
@@ -2098,7 +2098,7 @@
         "cost": 47,
         "color": "青",
         "追加スキル": "",
-        "imgpath": "f3e52f7e-f06a-4cc0-9618-8ebfbb81e375.jpeg",
+        "imgpath": "96_fc10f8e9-595d-40c5-8d53-6e7e6c188e2c.jpeg",
         "status": {
             "HP": 43,
             "MP": 29,
@@ -2117,7 +2117,7 @@
         "cost": 48,
         "color": "黄",
         "追加スキル": "きあいため",
-        "imgpath": "2bd15950-d5d6-4a6b-b320-5c76a876e5f2.jpeg",
+        "imgpath": "97_ac7b77eb-f70a-4d68-bf23-23bcc3bf863b.jpeg",
         "status": {
             "HP": 55,
             "MP": 22,
@@ -2136,7 +2136,7 @@
         "cost": 51,
         "color": "緑",
         "追加スキル": "マヌーサ",
-        "imgpath": "a0c229a5-566b-418e-9044-1047ffd1dc30.jpeg",
+        "imgpath": "98_5cfff272-2b01-434a-81a2-1042de73b12b.jpeg",
         "status": {
             "HP": 30,
             "MP": 50,
@@ -2157,7 +2157,7 @@
         "cost": 59,
         "color": "紫",
         "追加スキル": "ピオリム",
-        "imgpath": "b3312e70-c0fd-41f5-b123-9a65a6a10baa.jpeg",
+        "imgpath": "99_72ec6b06-cc60-4f27-8f80-054c499f54e8.jpeg",
         "status": {
             "HP": 49,
             "MP": 59,
@@ -2176,7 +2176,7 @@
         "cost": 56,
         "color": "赤",
         "追加スキル": "マヌーサ",
-        "imgpath": "941cb1e3-3f2d-4f59-a50c-b568ed667217.jpeg",
+        "imgpath": "100_152479a6-c681-40e9-a21a-ccdfecdd4cef.jpeg",
         "status": {
             "HP": 50,
             "MP": 18,
@@ -2195,7 +2195,7 @@
         "cost": 53,
         "color": "緑",
         "追加スキル": "",
-        "imgpath": "7c3b75b9-c02f-41ec-99eb-63211cb49c41.jpeg",
+        "imgpath": "101_8acb378b-5b50-4440-bbca-550d2fe25957.jpeg",
         "status": {
             "HP": 46,
             "MP": 46,
@@ -2214,7 +2214,7 @@
         "cost": 53,
         "color": "黄",
         "追加スキル": "やいばくだき",
-        "imgpath": "8866b210-974c-4694-8fe3-27dfbda8d230.jpeg",
+        "imgpath": "102_85ee0041-db0a-4729-9b43-bd6013c28d64.jpeg",
         "status": {
             "HP": 59,
             "MP": 24,
@@ -2233,7 +2233,7 @@
         "cost": 53,
         "color": "赤",
         "追加スキル": "やいばくだき",
-        "imgpath": "6af91f2a-bbee-428a-9d40-d15cc6ef3cc3.jpeg",
+        "imgpath": "103_836d6963-a91d-40f3-96eb-a4b10fa4cea1.jpeg",
         "status": {
             "HP": 29,
             "MP": 20,
@@ -2255,7 +2255,7 @@
         "cost": 57,
         "color": "紫",
         "追加スキル": "マホトーン",
-        "imgpath": "5e07ce21-6a69-4e1f-bbc1-abc3c1832d10.jpeg",
+        "imgpath": "104_6678946c-8098-4560-9f2b-579134cd8230.jpeg",
         "status": {
             "HP": 52,
             "MP": 63,
@@ -2274,7 +2274,7 @@
         "cost": 77,
         "color": "黄",
         "追加スキル": "",
-        "imgpath": "f3c29b90-e7de-440a-b8cc-51aa9b9538d2.jpeg",
+        "imgpath": "105_980fcdb2-f5b8-4ddc-b2a2-2ccec1efaafd.jpeg",
         "status": {
             "HP": 114,
             "MP": 48,
@@ -2297,7 +2297,7 @@
         "cost": 60,
         "color": "青",
         "追加スキル": "",
-        "imgpath": "83640daf-f74b-4522-aa1d-ee093298eb19.jpeg",
+        "imgpath": "106_de7712eb-f1ac-40bf-8112-e3c16e7a4675.jpeg",
         "status": {
             "HP": 29,
             "MP": 41,
@@ -2318,7 +2318,7 @@
         "cost": 54,
         "color": "青",
         "追加スキル": "",
-        "imgpath": "51c88111-f831-4adf-8ec6-9e4370c327e9.jpeg",
+        "imgpath": "107_0621d2e1-be63-4755-93c2-1c1140bc4045.jpeg",
         "status": {
             "HP": 48,
             "MP": 34,
@@ -2337,7 +2337,7 @@
         "cost": 54,
         "color": "黄",
         "追加スキル": "",
-        "imgpath": "22ad78e4-34e7-4f78-8d74-3eebfafbb81d.jpeg",
+        "imgpath": "108_f7b14a2e-695a-4ed1-967d-b443f3135f55.jpeg",
         "status": {
             "HP": 67,
             "MP": 26,
@@ -2358,7 +2358,7 @@
         "cost": 62,
         "color": "青",
         "追加スキル": "",
-        "imgpath": "4f68a71c-1d32-4117-819c-88bf0e46eda0.jpeg",
+        "imgpath": "109_7d79fc47-f885-40bb-919a-d4ebb84b53ab.jpeg",
         "status": {
             "HP": 53,
             "MP": 38,
@@ -2377,7 +2377,7 @@
         "cost": 63,
         "color": "黄",
         "追加スキル": "",
-        "imgpath": "48f10eea-5406-4003-83e5-fbffc0941a1d.jpeg",
+        "imgpath": "110_a27c5538-62a4-4fa2-a660-58aeac42834b.jpeg",
         "status": {
             "HP": 75,
             "MP": 24,
@@ -2398,7 +2398,7 @@
         "cost": 75,
         "color": "紫",
         "追加スキル": "",
-        "imgpath": "c7cdf8de-415a-40ee-a25a-2e5d138653aa.jpeg",
+        "imgpath": "111_4f80b8de-e900-4521-b1f7-4c66aa9ef766.jpeg",
         "status": {
             "HP": 57,
             "MP": 69,
@@ -2417,7 +2417,7 @@
         "cost": 62,
         "color": "赤",
         "追加スキル": "",
-        "imgpath": "0e452321-f9fa-4bbf-a651-2a01a15ba67b.jpeg",
+        "imgpath": "112_1b55fb8f-7ad9-40a3-96ac-280d256df355.jpeg",
         "status": {
             "HP": 54,
             "MP": 19,
@@ -2436,7 +2436,7 @@
         "cost": 57,
         "color": "青",
         "追加スキル": "",
-        "imgpath": "feb6a106-0ec4-4767-88ad-a2ce705137ee.jpeg",
+        "imgpath": "113_a0d2e633-7c4e-4ff8-9bbd-88a82b54ce40.jpeg",
         "status": {
             "HP": 50,
             "MP": 35,
@@ -2455,7 +2455,7 @@
         "cost": 57,
         "color": "黄",
         "追加スキル": "",
-        "imgpath": "49c31865-3ac9-4bca-b2f5-036fed7db4f2.jpeg",
+        "imgpath": "114_f140cf63-c574-4f49-af7b-56b241292d6d.jpeg",
         "status": {
             "HP": 63,
             "MP": 25,
@@ -2474,7 +2474,7 @@
         "cost": 57,
         "color": "紫",
         "追加スキル": "メラミ",
-        "imgpath": "4807e693-a293-435e-983a-87e161cfb0de.jpeg",
+        "imgpath": "115_f5c64e17-9d25-41a9-b873-b5782cbe63b1.jpeg",
         "status": {
             "HP": 40,
             "MP": 69,
@@ -2497,7 +2497,7 @@
         "cost": 57,
         "color": "緑",
         "追加スキル": "イオラ",
-        "imgpath": "644a9c27-ffc5-4b85-9c7e-78baf82fbba6.jpeg",
+        "imgpath": "116_b0be5d17-5f13-4614-be90-0713bcf7f20d.jpeg",
         "status": {
             "HP": 79,
             "MP": 82,
@@ -2521,7 +2521,7 @@
         "cost": 62,
         "color": "青",
         "追加スキル": "ベホイミ",
-        "imgpath": "b71cbfff-da8f-44f7-88ec-815ecb2a06e8.jpeg",
+        "imgpath": "117_8292a4b8-3a32-4f15-a80c-bdd6e30e82d9.jpeg",
         "status": {
             "HP": 64,
             "MP": 45,
@@ -2543,7 +2543,7 @@
         "cost": 63,
         "color": "赤",
         "追加スキル": "",
-        "imgpath": "49cd520a-ef63-4e86-864f-f0b5e1c4db0c.jpeg",
+        "imgpath": "118_b00aa640-4a84-4b69-8fa5-1b84ddac86c3.jpeg",
         "status": {
             "HP": 110,
             "MP": 19,
@@ -2567,7 +2567,7 @@
         "cost": 63,
         "color": "紫",
         "追加スキル": "",
-        "imgpath": "c6d0c7e0-0ece-4988-9854-b686da34ca66.jpeg",
+        "imgpath": "119_ca1cd583-9dc7-4d2e-a075-427f9d0583f1.jpeg",
         "status": {
             "HP": 51,
             "MP": 62,
@@ -2586,7 +2586,7 @@
         "cost": 68,
         "color": "黄",
         "追加スキル": "",
-        "imgpath": "fc7f5821-9708-4075-8fa1-39b55e201523.jpeg",
+        "imgpath": "120_09f33181-002c-4735-b6b1-ae5f82d55e0e.jpeg",
         "status": {
             "HP": 71,
             "MP": 29,
@@ -2605,7 +2605,7 @@
         "cost": 69,
         "color": "紫",
         "追加スキル": "メラミ",
-        "imgpath": "1ad6e094-f5dd-49d5-a4ad-1b0112dcfe2a.jpeg",
+        "imgpath": "121_e438ab2d-adb5-4168-9e52-f3e586157e84.jpeg",
         "status": {
             "HP": 42,
             "MP": 73,
@@ -2626,7 +2626,7 @@
         "cost": 69,
         "color": "青",
         "追加スキル": "ヒャダルコ",
-        "imgpath": "0921e931-5ee4-44e5-af1c-52e351f9737e.jpeg",
+        "imgpath": "122_140364b3-06a7-4a65-9bca-8a50ac41c77d.jpeg",
         "status": {
             "HP": 103,
             "MP": 76,
@@ -2650,7 +2650,7 @@
         "cost": 62,
         "color": "赤",
         "追加スキル": "スカラ",
-        "imgpath": "daiouika.jpeg",
+        "imgpath": "123_c9fe2315-2443-430a-8803-5071bc9d5a3a.jpeg",
         "status": {
             "HP": 65,
             "MP": 23,
@@ -2673,7 +2673,7 @@
         "cost": 62,
         "color": "赤",
         "追加スキル": "ピオラ",
-        "imgpath": "ebb08cc5-b3de-4bd1-a966-2c432b57b029.jpeg",
+        "imgpath": "124_2a79250b-9c1a-4e51-9200-99881d7a2b33.jpeg",
         "status": {
             "HP": 33,
             "MP": 23,
@@ -2696,7 +2696,7 @@
         "cost": 62,
         "color": "赤",
         "追加スキル": "",
-        "imgpath": "3495a148-d6e0-4121-9eca-919decee1f52.jpeg",
+        "imgpath": "125_bf0abd67-3df4-4a39-a440-43956dce1b5e.jpeg",
         "status": {
             "HP": 97,
             "MP": 16,
@@ -2719,7 +2719,7 @@
         "cost": 62,
         "color": "緑",
         "追加スキル": "",
-        "imgpath": "dabb6751-4046-40ce-b657-8ac0335ff3b4.jpeg",
+        "imgpath": "126_1ca38149-7318-48e0-a9c4-aacf01b19d2c.jpeg",
         "status": {
             "HP": 38,
             "MP": 62,
@@ -2742,7 +2742,7 @@
         "cost": 62,
         "color": "緑",
         "追加スキル": "",
-        "imgpath": "eaae7a63-bf24-4116-8231-474649bdf3c7.jpeg",
+        "imgpath": "127_d5594cf6-74ce-4d75-941d-930b35cff513.jpeg",
         "status": {
             "HP": 75,
             "MP": 78,
@@ -2765,7 +2765,7 @@
         "cost": 32,
         "color": "黄",
         "追加スキル": "",
-        "imgpath": "a7e2ed96-6ca2-4372-93d8-67d3a439b683.jpeg",
+        "imgpath": "128_2731a403-992a-4177-af84-2556a04db7e5.jpeg",
         "status": {
             "HP": 29,
             "MP": 9,
@@ -2788,7 +2788,7 @@
         "cost": 62,
         "color": "紫",
         "追加スキル": "",
-        "imgpath": "fe4b7ff1-15a0-433a-bae2-b71ada27aec1.jpeg",
+        "imgpath": "129_657b79bc-d3fb-4944-af67-edad0113a3c4.jpeg",
         "status": {
             "HP": 42,
             "MP": 73,
@@ -2811,7 +2811,7 @@
         "cost": 62,
         "color": "青",
         "追加スキル": "メラミ",
-        "imgpath": "bb4ad08a-f89f-4167-8526-2bea7b324825.jpeg",
+        "imgpath": "130_61b661a5-b373-401f-af22-a38bcbde21c7.jpeg",
         "status": {
             "HP": 32,
             "MP": 45,
@@ -2833,7 +2833,7 @@
         "cost": 66,
         "color": "赤",
         "追加スキル": "",
-        "imgpath": "6c6623f4-5788-4942-838c-2a45c6702851.jpeg",
+        "imgpath": "131_3786f1cb-765f-42bb-afd3-249cc6fe17b5.jpeg",
         "status": {
             "HP": 57,
             "MP": 21,
@@ -2852,7 +2852,7 @@
         "cost": 62,
         "color": "緑",
         "追加スキル": "イオラ",
-        "imgpath": "bb4ad08a-f89f-4167-8526-2bea7b324825.jpeg",
+        "imgpath": "132_41f3bd8a-5bed-41ca-8704-03b286958933.jpeg",
         "status": {
             "HP": 78,
             "MP": 78,
@@ -2875,7 +2875,7 @@
         "cost": 75,
         "color": "黄",
         "追加スキル": "",
-        "imgpath": "b6071c96-1cbd-4b8d-a9e5-fd8003acb517.jpeg",
+        "imgpath": "133_9ff3dee3-f548-471a-8a50-169d757541bf.jpeg",
         "status": {
             "HP": 54,
             "MP": 18,
@@ -2896,7 +2896,7 @@
         "cost": 71,
         "color": "赤",
         "追加スキル": "",
-        "imgpath": "a78e282f-29ba-4a3a-b8df-5340e400f7e3.jpeg",
+        "imgpath": "134_5bbbd3bd-e279-4be6-9031-f98ea74774f2.jpeg",
         "status": {
             "HP": 59,
             "MP": 22,
@@ -2915,7 +2915,7 @@
         "cost": 65,
         "color": "緑",
         "追加スキル": "",
-        "imgpath": "62aff80a-fced-40dd-9aad-e8ba17690711.jpeg",
+        "imgpath": "135_6b7e3647-fd3b-410a-8cfe-1a0f1be554c7.jpeg",
         "status": {
             "HP": 54,
             "MP": 54,
@@ -2934,7 +2934,7 @@
         "cost": 69,
         "color": "緑",
         "追加スキル": "ベホイミ",
-        "imgpath": "b0edebb6-2bf6-46ad-9380-b05b9c9e4a78.jpeg",
+        "imgpath": "136_cc38c4ce-1889-489a-9b28-e64c590d2a0f.jpeg",
         "status": {
             "HP": 57,
             "MP": 56,
@@ -2953,7 +2953,7 @@
         "cost": 92,
         "color": "赤",
         "追加スキル": "きあいため",
-        "imgpath": "6af91f2a-bbee-428a-9d40-d15cc6ef3cc3.jpeg",
+        "imgpath": "137_835067b8-f3ba-43e8-8c3e-ea948bd5ed22.jpeg",
         "status": {
             "HP": 127,
             "MP": 54,
@@ -2977,7 +2977,7 @@
         "cost": 72,
         "color": "赤",
         "追加スキル": "",
-        "imgpath": "7b51176e-d2ba-40c4-bd0b-17961b5e5ff6.jpeg",
+        "imgpath": "138_5e157cf7-a8bb-46fb-ae88-c67613f29ca1.jpeg",
         "status": {
             "HP": 33,
             "MP": 24,
@@ -2998,7 +2998,7 @@
         "cost": 66,
         "color": "青",
         "追加スキル": "",
-        "imgpath": "5e07ce21-6a69-4e1f-bbc1-abc3c1832d10.jpeg",
+        "imgpath": "139_1ef0314e-cbab-4426-bc44-9e90eec51d71.jpeg",
         "status": {
             "HP": 56,
             "MP": 40,
@@ -3017,7 +3017,7 @@
         "cost": 66,
         "color": "紫",
         "追加スキル": "ドルマ",
-        "imgpath": "112f74fe-c3c3-43cf-baa9-afbe739740f1.jpeg",
+        "imgpath": "140_11ce9cbd-c5fe-487a-804e-e231666680f3.jpeg",
         "status": {
             "HP": 60,
             "MP": 60,
@@ -3038,7 +3038,7 @@
         "cost": 66,
         "color": "黄",
         "追加スキル": "",
-        "imgpath": "2c6aeb9f-4bfd-47d2-b49b-b574eac4db4b.jpeg",
+        "imgpath": "141_2539a497-2698-48af-bcc3-9f04bea20e28.jpeg",
         "status": {
             "HP": 55,
             "MP": 18,
@@ -3060,7 +3060,7 @@
         "cost": 71,
         "color": "紫",
         "追加スキル": "メダパニ",
-        "imgpath": "3e334a2c-17ce-4f75-aca8-7dc29dbee9d0.jpeg",
+        "imgpath": "142_c5118f2c-c870-413a-ab4c-f904916bb46b.jpeg",
         "status": {
             "HP": 55,
             "MP": 67,
@@ -3079,7 +3079,7 @@
         "cost": 72,
         "color": "黄",
         "追加スキル": "",
-        "imgpath": "63d2e3e0-34f3-4107-a9dd-c9d3ca7275de.jpeg",
+        "imgpath": "143_d86b4589-cff8-47da-a636-3bebb7cce63a.jpeg",
         "status": {
             "HP": 74,
             "MP": 31,
@@ -3098,7 +3098,7 @@
         "cost": 74,
         "color": "緑",
         "追加スキル": "",
-        "imgpath": "58f0b143-65a2-4f65-9f74-58efd81248d2.jpeg",
+        "imgpath": "144_ad9e8698-d421-4c1d-abd2-3f2cc86ea995.jpeg",
         "status": {
             "HP": 59,
             "MP": 58,
@@ -3117,7 +3117,7 @@
         "cost": 75,
         "color": "青",
         "追加スキル": "",
-        "imgpath": "11d191bf-30cd-4153-96b0-4fde3d9ab2b5.jpeg",
+        "imgpath": "145_cd5988d6-32f1-40bf-a062-d79e58b48046.jpeg",
         "status": {
             "HP": 40,
             "MP": 58,
@@ -3141,7 +3141,7 @@
         "cost": 69,
         "color": "紫",
         "追加スキル": "ヒャダルコ",
-        "imgpath": "a6c0483c-2e30-4ca6-a359-43cb25e882a7.jpeg",
+        "imgpath": "146_20b50f3a-dc39-4075-8c4b-aa25e1f1f1a0.jpeg",
         "status": {
             "HP": 72,
             "MP": 88,
@@ -3165,7 +3165,7 @@
         "cost": 71,
         "color": "緑",
         "追加スキル": "メラミ",
-        "imgpath": "97257e30-0692-4cc5-8fd9-d84563de769b.jpeg",
+        "imgpath": "147_c8eff015-7c27-488a-ac5c-8f336cdfb394.jpeg",
         "status": {
             "HP": 69,
             "MP": 68,
@@ -3188,7 +3188,7 @@
         "cost": 75,
         "color": "赤",
         "追加スキル": "",
-        "imgpath": "75f3d235-0da1-4e62-add3-2e0db97fdecb.jpeg",
+        "imgpath": "148_94363b6b-ffff-455b-932f-b2960c33518f.jpeg",
         "status": {
             "HP": 62,
             "MP": 23,
@@ -3207,7 +3207,7 @@
         "cost": 77,
         "color": "緑",
         "追加スキル": "",
-        "imgpath": "1b9d67f7-88de-4d29-8cba-8d62f50e500d.jpeg",
+        "imgpath": "149_88fc007a-36cc-401a-b13e-4c22e7ea0d8d.jpeg",
         "status": {
             "HP": 40,
             "MP": 56,
@@ -3232,7 +3232,7 @@
         "cost": 77,
         "color": "青",
         "追加スキル": "",
-        "imgpath": "5941d8af-fd45-44f8-93e0-0f934e0395d1.jpeg",
+        "imgpath": "150_730dffbb-4975-4e9a-9dfc-e70ebec5e4ef.jpeg",
         "status": {
             "HP": 61,
             "MP": 44,
@@ -3251,7 +3251,7 @@
         "cost": 93,
         "color": "黄",
         "追加スキル": "",
-        "imgpath": "e914703a-5e86-4208-bee2-3d3606df3938.jpeg",
+        "imgpath": "151_36bf2143-9f0e-4818-a943-559feff0d3b3.jpeg",
         "status": {
             "HP": 97,
             "MP": 39,
@@ -3272,7 +3272,7 @@
         "cost": 81,
         "color": "赤",
         "追加スキル": "",
-        "imgpath": "4d0fd8f1-7aed-4e0c-9dc7-10d75b76e7b8.jpeg",
+        "imgpath": "152_e69a2479-cbf2-4871-a77d-ed631182a3c3.jpeg",
         "status": {
             "HP": 78,
             "MP": 33,
@@ -3296,7 +3296,7 @@
         "cost": 99,
         "color": "青",
         "追加スキル": "ルカニ",
-        "imgpath": "a2e02d46-d9cd-4987-a1c8-25e95568a80a.jpeg",
+        "imgpath": "153_ba55fc35-e056-4182-afb2-9ada815d258f.jpeg",
         "status": {
             "HP": 118,
             "MP": 71,
@@ -3322,7 +3322,7 @@
         "cost": 24,
         "color": "黄",
         "追加スキル": "",
-        "imgpath": "a7e2ed96-6ca2-4372-93d8-67d3a439b683.jpeg",
+        "imgpath": "154_b3c435ea-418b-46c2-98f1-f8601dffe3d2.jpeg",
         "status": {
             "HP": 44,
             "MP": 15,
@@ -3346,7 +3346,7 @@
         "cost": 6,
         "color": "紫",
         "追加スキル": "ギラ",
-        "imgpath": "62aff80a-fced-40dd-9aad-e8ba17690711.jpeg",
+        "imgpath": "155_62d0963d-36c6-44ae-91bd-2bf2340d2b51.jpeg",
         "status": {
             "HP": 7,
             "MP": 8,
@@ -3365,7 +3365,7 @@
         "cost": 11,
         "color": "赤",
         "追加スキル": "",
-        "imgpath": "6af91f2a-bbee-428a-9d40-d15cc6ef3cc3.jpeg",
+        "imgpath": "156_63fdfcbc-8b65-4866-89e1-5054cf962797.jpeg",
         "status": {
             "HP": 10,
             "MP": 4,
@@ -3384,7 +3384,7 @@
         "cost": 15,
         "color": "青",
         "追加スキル": "ボミエ",
-        "imgpath": "08e5247e-55d5-43c9-8072-54f39d39f965.jpeg",
+        "imgpath": "157_3521baf9-c642-49e4-956c-ea5adc3b5ead.jpeg",
         "status": {
             "HP": 14,
             "MP": 10,
@@ -3403,7 +3403,7 @@
         "cost": 24,
         "color": "黄",
         "追加スキル": "",
-        "imgpath": "bd735c6d-3efe-4098-84fd-1557162b6dc5.jpeg",
+        "imgpath": "158_33a7e7e7-899c-46db-b8ad-2e337c27b3b8.jpeg",
         "status": {
             "HP": 29,
             "MP": 10,
@@ -3424,7 +3424,7 @@
         "cost": 29,
         "color": "赤",
         "追加スキル": "",
-        "imgpath": "93ed5f34-6847-4f2d-9580-1c2be4d7e16f.jpeg",
+        "imgpath": "159_882599c5-fe1a-4795-805b-012ba4e290a1.jpeg",
         "status": {
             "HP": 27,
             "MP": 9,
@@ -3445,7 +3445,7 @@
         "cost": 39,
         "color": "黄",
         "追加スキル": "きあいため",
-        "imgpath": "b0edebb6-2bf6-46ad-9380-b05b9c9e4a78.jpeg",
+        "imgpath": "160_6167e5ee-c805-45a0-b247-aca2f6e9cc68.jpeg",
         "status": {
             "HP": 46,
             "MP": 17,
@@ -3464,7 +3464,7 @@
         "cost": 20,
         "color": "紫",
         "追加スキル": "ラリホー",
-        "imgpath": "b6e33a93-c575-47ea-8236-9ebf0dd8bf5b.jpeg",
+        "imgpath": "161_fb7a4304-c162-429a-8df2-b9dfbad1df4e.jpeg",
         "status": {
             "HP": 20,
             "MP": 20,
@@ -3485,7 +3485,7 @@
         "cost": 33,
         "color": "紫",
         "追加スキル": "マホトーン",
-        "imgpath": "285ed683-1cc1-47d8-b373-8a774d3cfe5e.jpeg",
+        "imgpath": "162_f68b6e59-fdcf-4fbe-abf8-b5e37bbea2f0.jpeg",
         "status": {
             "HP": 32,
             "MP": 39,
@@ -3506,7 +3506,7 @@
         "cost": 35,
         "color": "青",
         "追加スキル": "マホトーン",
-        "imgpath": "7b51176e-d2ba-40c4-bd0b-17961b5e5ff6.jpeg",
+        "imgpath": "163_a40817dc-6d06-46c0-b66d-b47eb5d1deb6.jpeg",
         "status": {
             "HP": 38,
             "MP": 28,
@@ -3525,7 +3525,7 @@
         "cost": 38,
         "color": "紫",
         "追加スキル": "",
-        "imgpath": "c6d0c7e0-0ece-4988-9854-b686da34ca66.jpeg",
+        "imgpath": "164_ff7d8869-f65a-486c-b82e-49523de9317c.jpeg",
         "status": {
             "HP": 23,
             "MP": 41,
@@ -3544,7 +3544,7 @@
         "cost": 41,
         "color": "赤",
         "追加スキル": "",
-        "imgpath": "19d9f9b7-7baa-491b-b0f8-ccc5a8ef6cd9.jpeg",
+        "imgpath": "165_89403751-2f6c-4372-a7f6-eb80363d5c84.jpeg",
         "status": {
             "HP": 21,
             "MP": 13,
@@ -3565,7 +3565,7 @@
         "cost": 44,
         "color": "青",
         "追加スキル": "スカラ",
-        "imgpath": "feb6a106-0ec4-4767-88ad-a2ce705137ee.jpeg",
+        "imgpath": "166_e7d07fe5-f078-4f42-a868-2a99fc5fbc39.jpeg",
         "status": {
             "HP": 40,
             "MP": 28,
@@ -3584,7 +3584,7 @@
         "cost": 47,
         "color": "緑",
         "追加スキル": "メラミ",
-        "imgpath": "7b51176e-d2ba-40c4-bd0b-17961b5e5ff6.jpeg",
+        "imgpath": "167_1ba525dc-3b82-4ce4-8867-a22c8631e0c1.jpeg",
         "status": {
             "HP": 42,
             "MP": 42,
@@ -3603,7 +3603,7 @@
         "cost": 50,
         "color": "黄",
         "追加スキル": "",
-        "imgpath": "dc86ae8c-4b0b-4ca9-a24f-a06c60e0dbe3.jpeg",
+        "imgpath": "168_9e3b49d4-a743-4160-b00a-05a99ea05837.jpeg",
         "status": {
             "HP": 62,
             "MP": 19,
@@ -3624,7 +3624,7 @@
         "cost": 92,
         "color": "赤",
         "追加スキル": "ラリホー",
-        "imgpath": "43d21d85-427b-4fd3-bc7d-4a39734b3ba7.jpeg",
+        "imgpath": "169_c82920ee-5b5c-4366-b3a0-a4c52d623b4f.jpeg",
         "status": {
             "HP": 87,
             "MP": 37,
@@ -3649,7 +3649,7 @@
         "cost": 32,
         "color": "緑",
         "追加スキル": "",
-        "imgpath": "eb790519-8f35-40b1-9019-eb8da8a99b87.jpeg",
+        "imgpath": "170_bf2deb4d-d0d1-4204-a4d7-1b98dc92b275.jpeg",
         "status": {
             "HP": 44,
             "MP": 44,
@@ -3673,7 +3673,7 @@
         "cost": 39,
         "color": "赤",
         "追加スキル": "",
-        "imgpath": "0ac8c164-1498-4a7f-81c1-0a7d39ee7980.jpeg",
+        "imgpath": "171_c954213a-812b-4662-9f37-c1a566de0ca2.jpeg",
         "status": {
             "HP": 55,
             "MP": 17,
@@ -3697,7 +3697,7 @@
         "cost": 54,
         "color": "紫",
         "追加スキル": "マホトーン",
-        "imgpath": "cd26b98a-5759-420c-a0a6-6ab9e30c07a9.jpeg",
+        "imgpath": "172_529edc2e-4137-4265-b960-4c8d5089eca8.jpeg",
         "status": {
             "HP": 68,
             "MP": 83,
@@ -3722,7 +3722,7 @@
         "cost": 17,
         "color": "緑",
         "追加スキル": "",
-        "imgpath": "7c3b75b9-c02f-41ec-99eb-63211cb49c41.jpeg",
+        "imgpath": "173_0af4ad4f-abc9-4d98-8aa6-83bd9a50b44b.jpeg",
         "status": {
             "HP": 18,
             "MP": 19,
@@ -3745,7 +3745,7 @@
         "cost": 24,
         "color": "黄",
         "追加スキル": "",
-        "imgpath": "0921e931-5ee4-44e5-af1c-52e351f9737e.jpeg",
+        "imgpath": "174_66678fc8-3e5c-4814-96fa-464863ec51df.jpeg",
         "status": {
             "HP": 35,
             "MP": 12,
@@ -3769,7 +3769,7 @@
         "cost": 39,
         "color": "黄",
         "追加スキル": "",
-        "imgpath": "742f39c0-d0cf-4b77-92b2-48c7ac793cde.jpeg",
+        "imgpath": "175_b4486b71-4f2a-4e17-b490-94977f6cfa97.jpeg",
         "status": {
             "HP": 55,
             "MP": 21,
@@ -3793,7 +3793,7 @@
         "cost": 62,
         "color": "黄",
         "追加スキル": "",
-        "imgpath": "f3c29b90-e7de-440a-b8cc-51aa9b9538d2.jpeg",
+        "imgpath": "176_fd3b1a8f-593b-4dec-b4a3-a11796f546a5.jpeg",
         "status": {
             "HP": 80,
             "MP": 32,
@@ -3817,7 +3817,7 @@
         "cost": 26,
         "color": "紫",
         "追加スキル": "ギラ",
-        "imgpath": "e11cf98c-365d-4d84-a663-ee606cbd3827.jpeg",
+        "imgpath": "177_61fcce06-140d-470f-a4ca-e29f9f4521e1.jpeg",
         "status": {
             "HP": 31,
             "MP": 38,
@@ -3841,7 +3841,7 @@
         "cost": 41,
         "color": "紫",
         "追加スキル": "メダパニ",
-        "imgpath": "9f1673e2-babf-475d-8eac-2d1c6f4e5853.jpeg",
+        "imgpath": "178_e7f101b6-fd21-4066-99ea-67d36c2e1bd3.jpeg",
         "status": {
             "HP": 47,
             "MP": 58,
@@ -3865,7 +3865,7 @@
         "cost": 65,
         "color": "紫",
         "追加スキル": "ドルクマ",
-        "imgpath": "6edf41f5-8463-41b0-9b12-9f0052e3e419.jpeg",
+        "imgpath": "179_8ce4e1a9-de01-4594-a6a8-f949f05e3bbe.jpeg",
         "status": {
             "HP": 69,
             "MP": 84,
@@ -3889,7 +3889,7 @@
         "cost": 27,
         "color": "青",
         "追加スキル": "ピオリム",
-        "imgpath": "94f95e5f-e64a-4193-bd66-6894b713b38f.jpeg",
+        "imgpath": "180_08b5bd0e-434d-4706-ac51-32de3a1deccf.jpeg",
         "status": {
             "HP": 34,
             "MP": 23,
@@ -3913,7 +3913,7 @@
         "cost": 42,
         "color": "青",
         "追加スキル": "",
-        "imgpath": "8787b885-82c0-4c82-a586-5908e33a5954.jpeg",
+        "imgpath": "181_b9c920de-5497-499a-800d-80e3bfcc72f7.jpeg",
         "status": {
             "HP": 51,
             "MP": 36,
@@ -3937,7 +3937,7 @@
         "cost": 68,
         "color": "青",
         "追加スキル": "はやぶさ斬り",
-        "imgpath": "4da8136d-f854-40be-86ed-381d335f99bb.jpeg",
+        "imgpath": "182_6ca8eefc-694a-460e-826d-62f4461eefc5.jpeg",
         "status": {
             "HP": 75,
             "MP": 54,
@@ -3961,7 +3961,7 @@
         "cost": 29,
         "color": "赤",
         "追加スキル": "",
-        "imgpath": "a261e472-5b22-4b18-8bac-3fb6c09101d0.jpeg",
+        "imgpath": "183_05c345d5-fcaf-44ae-ab29-40b52320ac47.jpeg",
         "status": {
             "HP": 33,
             "MP": 10,
@@ -3985,7 +3985,7 @@
         "cost": 44,
         "color": "赤",
         "追加スキル": "",
-        "imgpath": "eaca5b46-c807-4925-a919-abe6df490ed2.jpeg",
+        "imgpath": "184_99672ef6-eba4-42cd-aeda-b42184c4b23c.jpeg",
         "status": {
             "HP": 49,
             "MP": 16,
@@ -4009,7 +4009,7 @@
         "cost": 77,
         "color": "赤",
         "追加スキル": "マヌーサ",
-        "imgpath": "395b3e5b-67d6-4768-8ba4-38f676a7044f.jpeg",
+        "imgpath": "185_04dd70f6-fada-49c2-b1c0-aafb7be40670.jpeg",
         "status": {
             "HP": 103,
             "MP": 47,
@@ -4032,7 +4032,7 @@
         "cost": 62,
         "color": "緑",
         "追加スキル": "",
-        "imgpath": "f3c29b90-e7de-440a-b8cc-51aa9b9538d2.jpeg",
+        "imgpath": "186_2018d07a-0f08-4dea-b1f9-9405d9acf9ac.jpeg",
         "status": {
             "HP": 78,
             "MP": 78,
@@ -4055,7 +4055,7 @@
         "cost": 69,
         "color": "黄",
         "追加スキル": "",
-        "imgpath": "25f36cc2-10ce-401d-829f-2ccfa9411d4a.jpeg",
+        "imgpath": "187_d652b8c9-4d86-4c83-8b86-c0bf6e28fb29.jpeg",
         "status": {
             "HP": 96,
             "MP": 51,
@@ -4079,7 +4079,7 @@
         "cost": 47,
         "color": "黄",
         "追加スキル": "",
-        "imgpath": "f18dd195-04db-4d81-a0df-7e514cd9f16c.jpeg",
+        "imgpath": "188_d63ceba1-fe77-46a7-b34e-82e0c4da6c6e.jpeg",
         "status": {
             "HP": 80,
             "MP": 31,
@@ -4103,7 +4103,7 @@
         "cost": 69,
         "color": "赤",
         "追加スキル": "",
-        "imgpath": "806163eb-e1d0-4bef-95d2-a0c6c55b4ed6.jpeg",
+        "imgpath": "189_76521945-e8b7-4acc-8089-8143a420451d.jpeg",
         "status": {
             "HP": 78,
             "MP": 29,
@@ -4127,7 +4127,7 @@
         "cost": 62,
         "color": "緑",
         "追加スキル": "",
-        "imgpath": "9db3d92a-b267-4d2b-a501-806f6a15fb9b.jpeg",
+        "imgpath": "190_7e2b1a4f-1c8b-4f21-a54b-cfdb50b0b2be.jpeg",
         "status": {
             "HP": 39,
             "MP": 78,
@@ -4151,7 +4151,7 @@
         "cost": 69,
         "color": "紫",
         "追加スキル": "",
-        "imgpath": "294abab9-2432-4b3c-bc38-526fbf68ce4d.jpeg",
+        "imgpath": "191_1dae1fe4-f4e0-40f7-bf17-abb14c9cbfca.jpeg",
         "status": {
             "HP": 87,
             "MP": 110,
@@ -4175,7 +4175,7 @@
         "cost": 77,
         "color": "青",
         "追加スキル": "",
-        "imgpath": "3692ad67-a840-4c74-bc3a-44711db7e628.jpeg",
+        "imgpath": "193_6cf1e8f8-1bfa-4731-b55d-b08005ead75c.jpeg",
         "status": {
             "HP": 91,
             "MP": 66,
@@ -4199,7 +4199,7 @@
         "cost": 65,
         "color": "青",
         "追加スキル": "",
-        "imgpath": "26750e46-2c25-4b37-b565-dc97d0388267.jpeg",
+        "imgpath": "194_436f8df9-31e3-443b-9856-a9aa604cac6e.jpeg",
         "status": {
             "HP": 30,
             "MP": 43,
@@ -4220,7 +4220,7 @@
         "cost": 68,
         "color": "緑",
         "追加スキル": "ヒャダルコ",
-        "imgpath": "c37845e6-6038-4207-9434-4285e711e536.jpeg",
+        "imgpath": "195_9097b06d-1898-4374-9a1d-c57242b64f83.jpeg",
         "status": {
             "HP": 80,
             "MP": 80,
@@ -4242,7 +4242,7 @@
         "cost": 65,
         "color": "紫",
         "追加スキル": "",
-        "imgpath": "f18dd195-04db-4d81-a0df-7e514cd9f16c.jpeg",
+        "imgpath": "196_954255d3-8998-45ff-95c7-0996658998fe.jpeg",
         "status": {
             "HP": 35,
             "MP": 84,
@@ -4267,7 +4267,7 @@
         "cost": 17,
         "color": "紫",
         "追加スキル": "",
-        "imgpath": "6af91f2a-bbee-428a-9d40-d15cc6ef3cc3.jpeg",
+        "imgpath": "197_d8f46c2a-ddec-4401-b24c-ae0d5f5f3d7e.jpeg",
         "status": {
             "HP": 8,
             "MP": 19,
@@ -4286,7 +4286,7 @@
         "cost": 47,
         "color": "黄",
         "追加スキル": "",
-        "imgpath": "91da6f80-0c54-4f06-af5b-f86cca42926e.jpeg",
+        "imgpath": "198_ce6028f6-e07f-4b07-8660-1f52a7cad1fa.jpeg",
         "status": {
             "HP": 59,
             "MP": 23,
@@ -4307,7 +4307,7 @@
         "cost": 66,
         "color": "赤",
         "追加スキル": "",
-        "imgpath": "67c0c456-a580-41fb-a912-61ad0a6e63e0.jpeg",
+        "imgpath": "199_a5725228-c6ad-440b-88be-6d8ec343133d.jpeg",
         "status": {
             "HP": 85,
             "MP": 37,
@@ -4330,7 +4330,7 @@
         "cost": 69,
         "color": "赤",
         "追加スキル": "",
-        "imgpath": "0d721f5b-afe7-43df-aab6-49a8d71f6b2e.jpeg",
+        "imgpath": "200_cc09cf51-a566-416e-876e-6c1b1bfafe85.jpeg",
         "status": {
             "HP": 88,
             "MP": 32,
@@ -4353,7 +4353,7 @@
         "cost": 78,
         "color": "緑",
         "追加スキル": "",
-        "imgpath": "fd6eae07-c2ef-48c3-8809-13f2df548f30.jpeg",
+        "imgpath": "201_9da87336-e6b7-4ce1-bb36-b092e30d2b97.jpeg",
         "status": {
             "HP": 73,
             "MP": 74,
@@ -4376,7 +4376,7 @@
         "cost": 39,
         "color": "紫",
         "追加スキル": "",
-        "imgpath": "210cb733-683b-4cbf-8485-2d0249ea9f75.jpeg",
+        "imgpath": "202_70d351a2-0251-49fb-b2a0-7f1902c5ff7d.jpeg",
         "status": {
             "HP": 17,
             "MP": 42,
@@ -4395,7 +4395,7 @@
         "cost": 62,
         "color": "緑",
         "追加スキル": "",
-        "imgpath": "bb6e9ac7-4ca9-48a6-b116-1eeab367e5a3.jpeg",
+        "imgpath": "203_9a983b78-276b-485f-aaa0-574897115475.jpeg",
         "status": {
             "HP": 29,
             "MP": 57,
@@ -4416,7 +4416,7 @@
         "cost": 69,
         "color": "赤",
         "追加スキル": "",
-        "imgpath": "9a118737-36a8-43af-8ef9-ccba2e600cdf.jpeg",
+        "imgpath": "204_9c4f4fb4-6200-4794-8989-fc38538f1e91.jpeg",
         "status": {
             "HP": 35,
             "MP": 11,
@@ -4439,7 +4439,7 @@
         "cost": 69,
         "color": "青",
         "追加スキル": "バギマ",
-        "imgpath": "c6d0c7e0-0ece-4988-9854-b686da34ca66.jpeg",
+        "imgpath": "205_f34d0969-25ab-4629-aec0-c22eef5b2ed1.jpeg",
         "status": {
             "HP": 35,
             "MP": 49,
@@ -4464,7 +4464,7 @@
         "cost": 62,
         "color": "緑",
         "追加スキル": "",
-        "imgpath": "af83d7b8-2478-4733-ab8e-2ce21475fcf2.jpeg",
+        "imgpath": "206_1625dbd2-eb0e-45e7-82c3-6f2242002891.jpeg",
         "status": {
             "HP": 58,
             "MP": 41,
@@ -4485,7 +4485,7 @@
         "cost": 77,
         "color": "黄",
         "追加スキル": "",
-        "imgpath": "7d34b1b6-65f9-49fa-a882-5c16bfd6ea66.jpeg",
+        "imgpath": "207_c37faed1-f1d5-4ac7-928b-9f5758b1d24f.jpeg",
         "status": {
             "HP": 51,
             "MP": 22,
@@ -4510,7 +4510,7 @@
         "cost": 78,
         "color": "紫",
         "追加スキル": "",
-        "imgpath": "25462a38-6ea8-4a30-a795-83682e95dd8d.jpeg",
+        "imgpath": "209_499efbc4-b715-457f-8ab2-9d496e41710e.jpeg",
         "status": {
             "HP": 54,
             "MP": 71,
@@ -4529,7 +4529,7 @@
         "cost": 78,
         "color": "赤",
         "追加スキル": "",
-        "imgpath": "7b51176e-d2ba-40c4-bd0b-17961b5e5ff6.jpeg",
+        "imgpath": "210_7b30b76e-ae4f-468d-84cf-768202ea8340.jpeg",
         "status": {
             "HP": 81,
             "MP": 34,
@@ -4550,7 +4550,7 @@
         "cost": 80,
         "color": "青",
         "追加スキル": "",
-        "imgpath": "b93305ea-34fd-46c1-a23b-27e2e16c621d.jpeg",
+        "imgpath": "211_9bb5cce2-4c98-4e5b-9e37-46cc86ede191.jpeg",
         "status": {
             "HP": 77,
             "MP": 46,
@@ -4572,7 +4572,7 @@
         "cost": 81,
         "color": "黄",
         "追加スキル": "",
-        "imgpath": "7f4cb4e3-95b8-4a0f-a6f1-31f07565c688.jpeg",
+        "imgpath": "212_ab2bda07-f90e-4ac6-9773-5671500a270a.jpeg",
         "status": {
             "HP": 78,
             "MP": 31,
@@ -4591,7 +4591,7 @@
         "cost": 81,
         "color": "青",
         "追加スキル": "",
-        "imgpath": "9e9720f6-ec3c-436a-ae09-c97057fb3338.jpeg",
+        "imgpath": "213_9f178c82-b27e-461c-96c7-65ea8e6d8eaf.jpeg",
         "status": {
             "HP": 86,
             "MP": 51,
@@ -4612,7 +4612,7 @@
         "cost": 83,
         "color": "青",
         "追加スキル": "",
-        "imgpath": "e9bcff9e-50ae-4012-8c0b-b6da3bb0d20b.jpeg",
+        "imgpath": "214_aeeed9da-41a4-4fbd-a710-1bc8e19de841.jpeg",
         "status": {
             "HP": 66,
             "MP": 40,
@@ -4631,7 +4631,7 @@
         "cost": 83,
         "color": "緑",
         "追加スキル": "",
-        "imgpath": "112f74fe-c3c3-43cf-baa9-afbe739740f1.jpeg",
+        "imgpath": "215_b22b7b82-c041-4087-8a07-26b9654a32c1.jpeg",
         "status": {
             "HP": 46,
             "MP": 56,
@@ -4652,7 +4652,7 @@
         "cost": 83,
         "color": "紫",
         "追加スキル": "",
-        "imgpath": "782e881c-7e11-47d8-a40c-6960ff83ff29.jpeg",
+        "imgpath": "216_b9299bdf-b8a5-4341-99d3-08bf4570d48a.jpeg",
         "status": {
             "HP": 45,
             "MP": 70,
@@ -4674,7 +4674,7 @@
         "cost": 84,
         "color": "緑",
         "追加スキル": "",
-        "imgpath": "4f68a71c-1d32-4117-819c-88bf0e46eda0.jpeg",
+        "imgpath": "217_1c067689-dded-471c-9b16-d553140d4263.jpeg",
         "status": {
             "HP": 65,
             "MP": 64,
@@ -4693,7 +4693,7 @@
         "cost": 84,
         "color": "黄",
         "追加スキル": "",
-        "imgpath": "1f1c34d9-ed91-4e82-bad2-466bd2b6d34d.jpeg",
+        "imgpath": "218_8ada59ee-b61f-445f-ae33-fa422e44c233.jpeg",
         "status": {
             "HP": 106,
             "MP": 18,
@@ -4714,7 +4714,7 @@
         "cost": 84,
         "color": "紫",
         "追加スキル": "メダパニ",
-        "imgpath": "dabb6751-4046-40ce-b657-8ac0335ff3b4.jpeg",
+        "imgpath": "219_534b0b3b-f360-47ce-a5ff-aa22f233869f.jpeg",
         "status": {
             "HP": 87,
             "MP": 110,
@@ -4738,7 +4738,7 @@
         "cost": 86,
         "color": "緑",
         "追加スキル": "",
-        "imgpath": "1ad6e094-f5dd-49d5-a4ad-1b0112dcfe2a.jpeg",
+        "imgpath": "220_5d44cc70-5787-4147-8aa7-e6e31651a417.jpeg",
         "status": {
             "HP": 73,
             "MP": 71,
@@ -4759,7 +4759,7 @@
         "cost": 92,
         "color": "黄",
         "追加スキル": "",
-        "imgpath": "ebb08cc5-b3de-4bd1-a966-2c432b57b029.jpeg",
+        "imgpath": "221_65c2c1c6-3e59-44af-b3d8-c37526d6caf7.jpeg",
         "status": {
             "HP": 87,
             "MP": 35,
@@ -4778,7 +4778,7 @@
         "cost": 87,
         "color": "黄",
         "追加スキル": "",
-        "imgpath": "0589207d-4168-49e0-bae6-ecd86b237dc3.jpeg",
+        "imgpath": "222_55bb809b-c38d-460c-af7a-0adf26106d11.jpeg",
         "status": {
             "HP": 100,
             "MP": 40,
@@ -4800,7 +4800,7 @@
         "cost": 90,
         "color": "緑",
         "追加スキル": "",
-        "imgpath": "feb6a106-0ec4-4767-88ad-a2ce705137ee.jpeg",
+        "imgpath": "223_d3e2447c-0235-4552-afa0-be2faad7167c.jpeg",
         "status": {
             "HP": 70,
             "MP": 66,
@@ -4819,7 +4819,7 @@
         "cost": 87,
         "color": "緑",
         "追加スキル": "",
-        "imgpath": "3a476246-a617-4fc3-a037-b2fedd5b8438.jpeg",
+        "imgpath": "224_9df096d3-cb73-4495-b2b2-6a8dd497c224.jpeg",
         "status": {
             "HP": 90,
             "MP": 86,
@@ -4842,7 +4842,7 @@
         "cost": 99,
         "color": "黄",
         "追加スキル": "",
-        "imgpath": "5e203847-5aaa-490e-a183-025bc9272c7d.jpeg",
+        "imgpath": "225_a2da6f53-8149-4873-8575-7f5f49252318.jpeg",
         "status": {
             "HP": 120,
             "MP": 56,
@@ -4868,7 +4868,7 @@
         "cost": 62,
         "color": "紫",
         "追加スキル": "",
-        "imgpath": "e981afe5-22d7-4477-8cb6-6e6219088476.jpeg",
+        "imgpath": "226_8db947a2-84b0-4164-a9bf-43a2dcb8b3ee.jpeg",
         "status": {
             "HP": 34,
             "MP": 81,
@@ -4893,7 +4893,7 @@
         "cost": 78,
         "color": "黄",
         "追加スキル": "",
-        "imgpath": "8aeaaac5-6762-4900-b280-7d83d0674c2c.jpeg",
+        "imgpath": "227_c65af5f3-5b34-4922-a4dc-01fc9d35457f.jpeg",
         "status": {
             "HP": 57,
             "MP": 43,
@@ -4918,7 +4918,7 @@
         "cost": 30,
         "color": "紫",
         "追加スキル": "",
-        "imgpath": "bd1e03c2-0afd-496e-9412-f74b2e6cf931.jpeg",
+        "imgpath": "228_9c37743c-3215-4ccb-9d2b-7d0ff407781f.jpeg",
         "status": {
             "HP": 29,
             "MP": 36,
@@ -4939,7 +4939,7 @@
         "cost": 81,
         "color": "青",
         "追加スキル": "",
-        "imgpath": "d45c0a6f-589d-4923-acc0-efe87c395c9b.jpeg",
+        "imgpath": "229_7579c9e9-a5c8-4173-a53a-0109d309b6db.jpeg",
         "status": {
             "HP": 51,
             "MP": 28,
@@ -4963,7 +4963,7 @@
         "cost": 80,
         "color": "赤",
         "追加スキル": "",
-        "imgpath": "214298c7-14c7-402e-890d-cddec74f3444.jpeg",
+        "imgpath": "231_8e221008-d82d-4afb-bb7b-b39edf4a9787.jpeg",
         "status": {
             "HP": 76,
             "MP": 32,
@@ -4988,7 +4988,7 @@
         "cost": 77,
         "color": "緑",
         "追加スキル": "",
-        "imgpath": "7f4cb4e3-95b8-4a0f-a6f1-31f07565c688.jpeg",
+        "imgpath": "232_60487c1d-6fd5-45d7-bd46-51d823cb11c5.jpeg",
         "status": {
             "HP": 108,
             "MP": 67,
@@ -5012,7 +5012,7 @@
         "cost": 81,
         "color": "紫",
         "追加スキル": "",
-        "imgpath": "69e478db-ffc7-49a4-ba0b-12a2011077d3.jpeg",
+        "imgpath": "233_86914063-a604-48fd-990a-74ea71f30f11.jpeg",
         "status": {
             "HP": 67,
             "MP": 52,
@@ -5036,7 +5036,7 @@
         "cost": 84,
         "color": "紫",
         "追加スキル": "",
-        "imgpath": "644a9c27-ffc5-4b85-9c7e-78baf82fbba6.jpeg",
+        "imgpath": "234_13b194fc-e57a-49b9-832f-d2f999473dc0.jpeg",
         "status": {
             "HP": 57,
             "MP": 88,
@@ -5060,7 +5060,7 @@
         "cost": 86,
         "color": "赤",
         "追加スキル": "",
-        "imgpath": "cc32cf7d-8044-4345-85de-2b7d56d82452.jpeg",
+        "imgpath": "235_a3221218-3943-4706-9985-aac6764fd36e.jpeg",
         "status": {
             "HP": 62,
             "MP": 26,
@@ -5079,7 +5079,7 @@
         "cost": 87,
         "color": "紫",
         "追加スキル": "",
-        "imgpath": "9db3d92a-b267-4d2b-a501-806f6a15fb9b.jpeg",
+        "imgpath": "236_db262c38-fe9d-4d1e-ab7e-95ff6d531980.jpeg",
         "status": {
             "HP": 60,
             "MP": 74,
@@ -5098,7 +5098,7 @@
         "cost": 89,
         "color": "青",
         "追加スキル": "",
-        "imgpath": "50f73a36-1e7f-4419-8719-c601c101a37b.jpeg",
+        "imgpath": "237_6a58bb50-950e-4853-aeff-222a8dcbed11.jpeg",
         "status": {
             "HP": 71,
             "MP": 42,
@@ -5117,7 +5117,7 @@
         "cost": 89,
         "color": "黄",
         "追加スキル": "",
-        "imgpath": "80206bbd-5b43-4905-b68c-67bc8f76db77.jpeg",
+        "imgpath": "238_a0df3231-4956-48dd-a58e-59babd4da3f3.jpeg",
         "status": {
             "HP": 70,
             "MP": 37,
@@ -5138,7 +5138,7 @@
         "cost": 92,
         "color": "紫",
         "追加スキル": "",
-        "imgpath": "636381c6-9232-44c6-9387-a848dec5daf4.jpeg",
+        "imgpath": "239_d0ccba0a-b819-4921-bc36-2058f0616b45.jpeg",
         "status": {
             "HP": 75,
             "MP": 55,
@@ -5161,7 +5161,7 @@
         "cost": 90,
         "color": "青",
         "追加スキル": "",
-        "imgpath": "57011114-c0c4-4a08-adb6-ddff38bd978d.jpeg",
+        "imgpath": "240_9417a6e1-49c3-4753-b65e-4074c331d38d.jpeg",
         "status": {
             "HP": 79,
             "MP": 48,
@@ -5182,7 +5182,7 @@
         "cost": 95,
         "color": "青",
         "追加スキル": "",
-        "imgpath": "beb1a1c5-c716-4d71-a977-6702188d38a2.jpeg",
+        "imgpath": "241_d5c5042a-9412-49b3-8a08-7cba3a6e420e.jpeg",
         "status": {
             "HP": 90,
             "MP": 54,
@@ -5204,7 +5204,7 @@
         "cost": 96,
         "color": "黄",
         "追加スキル": "",
-        "imgpath": "47e83e30-0df9-40bc-b9dd-79303cd8afad.jpeg",
+        "imgpath": "242_b467e137-afa8-4d2b-bbdb-698314c01194.jpeg",
         "status": {
             "HP": 91,
             "MP": 36,
@@ -5223,7 +5223,7 @@
         "cost": 96,
         "color": "黄",
         "追加スキル": "",
-        "imgpath": "25462a38-6ea8-4a30-a795-83682e95dd8d.jpeg",
+        "imgpath": "243_27ed4161-2932-4f57-979b-40f296b2d57e.jpeg",
         "status": {
             "HP": 91,
             "MP": 48,
@@ -5247,7 +5247,7 @@
         "cost": 107,
         "color": "緑",
         "追加スキル": "",
-        "imgpath": "67c0c456-a580-41fb-a912-61ad0a6e63e0.jpeg",
+        "imgpath": "244_731682f5-2b36-49db-aec5-e96a0223b6ab.jpeg",
         "status": {
             "HP": 90,
             "MP": 88,
@@ -5268,7 +5268,7 @@
         "cost": 98,
         "color": "赤",
         "追加スキル": "",
-        "imgpath": "3692ad67-a840-4c74-bc3a-44711db7e628.jpeg",
+        "imgpath": "245_6413fb35-4886-4f41-a0fc-47ed9183257d.jpeg",
         "status": {
             "HP": 83,
             "MP": 35,
@@ -5290,7 +5290,7 @@
         "cost": 81,
         "color": "黄",
         "追加スキル": "",
-        "imgpath": "5e203847-5aaa-490e-a183-025bc9272c7d.jpeg",
+        "imgpath": "247_19911ae6-746c-4f13-b71f-bab6c7a6cf18.jpeg",
         "status": {
             "HP": 70,
             "MP": 37,
@@ -5315,7 +5315,7 @@
         "cost": 84,
         "color": "黄",
         "追加スキル": "",
-        "imgpath": "fdde05f8-98a8-4bd1-91cf-b14fc9689a39.jpeg",
+        "imgpath": "248_b27b8f41-ce44-4b12-8a9e-93b2d0b3f2da.jpeg",
         "status": {
             "HP": 107,
             "MP": 42,
@@ -5340,7 +5340,7 @@
         "cost": 81,
         "color": "青",
         "追加スキル": "",
-        "imgpath": "a7e2ed96-6ca2-4372-93d8-67d3a439b683.jpeg",
+        "imgpath": "249_28cb2d23-5882-4202-900a-e21d98295c3c.jpeg",
         "status": {
             "HP": 87,
             "MP": 52,
@@ -5365,7 +5365,7 @@
         "cost": 69,
         "color": "緑",
         "追加スキル": "",
-        "imgpath": "9836113c-71c1-43c8-b56f-73d2fcafeb85.jpeg",
+        "imgpath": "251_c1078dda-a5d8-4cda-acd7-fddf892608c2.jpeg",
         "status": {
             "HP": 75,
             "MP": 74,
@@ -5386,7 +5386,7 @@
         "cost": 84,
         "color": "紫",
         "追加スキル": "",
-        "imgpath": "9f1673e2-babf-475d-8eac-2d1c6f4e5853.jpeg",
+        "imgpath": "252_11c7afff-9b11-468c-ac03-e6de1a0001f4.jpeg",
         "status": {
             "HP": 87,
             "MP": 96,
@@ -5411,7 +5411,7 @@
         "cost": 81,
         "color": "赤",
         "追加スキル": "",
-        "imgpath": "49c31865-3ac9-4bca-b2f5-036fed7db4f2.jpeg",
+        "imgpath": "253_caac574b-cea8-4bed-8cfd-73c4321c9655.jpeg",
         "status": {
             "HP": 51,
             "MP": 26,
@@ -5436,7 +5436,7 @@
         "cost": 84,
         "color": "青",
         "追加スキル": "",
-        "imgpath": "3266c228-bf23-4ecc-b149-940cb5338d81.jpeg",
+        "imgpath": "254_c2cd580d-f1fb-49b0-8346-0e003cef80eb.jpeg",
         "status": {
             "HP": 121,
             "MP": 72,
@@ -5460,7 +5460,7 @@
         "cost": 81,
         "color": "赤",
         "追加スキル": "",
-        "imgpath": "5b3920dc-f61c-4abb-9a5e-57dea8cf1e23.jpeg",
+        "imgpath": "255_e4f53a4e-6e48-47a0-a389-519eddf1a54f.jpeg",
         "status": {
             "HP": 70,
             "MP": 30,
@@ -5485,7 +5485,7 @@
         "cost": 87,
         "color": "紫",
         "追加スキル": "",
-        "imgpath": "68c96818-73de-4a6d-a2cc-4f60ab4e8d3b.jpeg",
+        "imgpath": "257_c339ce74-d242-4c38-9ec4-34f8c3145cda.jpeg",
         "status": {
             "HP": 100,
             "MP": 109,
@@ -5510,7 +5510,7 @@
         "cost": 81,
         "color": "青",
         "追加スキル": "",
-        "imgpath": "8605302a-8e3d-4c1a-adfc-d147aa9bfe51.jpeg",
+        "imgpath": "258_ba805566-bf77-4baa-9d30-6360b6acb33b.jpeg",
         "status": {
             "HP": 55,
             "MP": 28,
@@ -5531,11 +5531,11 @@
     },
     "254": {
         "id": 260,
-        "name": "キングスイカ岩キングスイカ岩キングスイカ岩キングスイカ岩キングスイカ岩キングスイカ岩キングスイカ岩",
+        "name": "キングスイカ岩",
         "cost": 84,
         "color": "黄",
-        "追加スキル": "いやしの果汁いやしの果汁いやしの果汁いやしの果汁いやしの果汁いやしの果汁いやしの果汁",
-        "imgpath": "05156591-2432-471b-b313-a44120eb6c97.jpeg",
+        "追加スキル": "いやしの果汁",
+        "imgpath": "260_7a8d1bf1-bc25-44c2-8661-b523ee836db6.jpeg",
         "status": {
             "HP": 86,
             "MP": 51,
@@ -5560,7 +5560,7 @@
         "cost": 54,
         "color": "紫",
         "追加スキル": "",
-        "imgpath": "4b0648fa-7f86-44df-b461-ae88e9757f12.jpeg",
+        "imgpath": "261_bd5009e4-0e97-4de5-b8ec-8fb0974574b6.jpeg",
         "status": {
             "HP": 25,
             "MP": 61,
@@ -5581,7 +5581,7 @@
         "cost": 77,
         "color": "青",
         "追加スキル": "",
-        "imgpath": "596dff15-8448-4770-9c70-257bfa31d44a.jpeg",
+        "imgpath": "262_7abf2811-d74f-409f-be7e-046cdb177439.jpeg",
         "status": {
             "HP": 34,
             "MP": 48,
@@ -5602,7 +5602,7 @@
         "cost": 84,
         "color": "緑",
         "追加スキル": "",
-        "imgpath": "7386bbf3-ce09-44a3-b012-a47448aaa7b0.jpeg",
+        "imgpath": "263_db33e8ff-71dd-4675-9b52-15b00d65cf90.jpeg",
         "status": {
             "HP": 51,
             "MP": 57,
@@ -5626,7 +5626,7 @@
         "cost": 87,
         "color": "赤",
         "追加スキル": "",
-        "imgpath": "2e7d2da6-4bb4-4061-a56f-b1b9a8c135a7.jpeg",
+        "imgpath": "264_924e6e28-9f6b-4437-8cac-0e26c10e367d.jpeg",
         "status": {
             "HP": 83,
             "MP": 35,
@@ -5651,7 +5651,7 @@
         "cost": 84,
         "color": "黄",
         "追加スキル": "",
-        "imgpath": "a78e282f-29ba-4a3a-b8df-5340e400f7e3.jpeg",
+        "imgpath": "265_a87444f3-ef63-4425-bf36-c7501193971e.jpeg",
         "status": {
             "HP": 115,
             "MP": 19,
@@ -5676,7 +5676,7 @@
         "cost": 93,
         "color": "緑",
         "追加スキル": "",
-        "imgpath": "f3c29b90-e7de-440a-b8cc-51aa9b9538d2.jpeg",
+        "imgpath": "266_abfdcea0-c56d-4cbf-a1f0-507294e8ed88.jpeg",
         "status": {
             "HP": 99,
             "MP": 80,
@@ -5695,7 +5695,7 @@
         "cost": 95,
         "color": "赤",
         "追加スキル": "",
-        "imgpath": "83640daf-f74b-4522-aa1d-ee093298eb19.jpeg",
+        "imgpath": "267_fbe93306-20c1-4031-82c4-2590f46a8b84.jpeg",
         "status": {
             "HP": 67,
             "MP": 29,
@@ -5714,7 +5714,7 @@
         "cost": 96,
         "color": "緑",
         "追加スキル": "",
-        "imgpath": "2880e177-c38b-4a60-aed8-e864a62c7c3d.jpeg",
+        "imgpath": "268_a65c6079-3cba-471e-93d8-2fb15d2b40dd.jpeg",
         "status": {
             "HP": 74,
             "MP": 68,
@@ -5735,7 +5735,7 @@
         "cost": 98,
         "color": "紫",
         "追加スキル": "",
-        "imgpath": "13e539a5-91ea-448a-a275-521d4fc4abfa.jpeg",
+        "imgpath": "269_1346ff4e-fb46-4e3a-aef2-d9f68f9f6bc9.jpeg",
         "status": {
             "HP": 67,
             "MP": 78,
@@ -5754,7 +5754,7 @@
         "cost": 99,
         "color": "青",
         "追加スキル": "",
-        "imgpath": "62dcdd06-74f9-4869-b089-63760df80f4d.jpeg",
+        "imgpath": "270_5a77c4d4-30d0-447f-abc8-298816a66e83.jpeg",
         "status": {
             "HP": 79,
             "MP": 47,
@@ -5773,7 +5773,7 @@
         "cost": 99,
         "color": "紫",
         "追加スキル": "",
-        "imgpath": "4d0fd8f1-7aed-4e0c-9dc7-10d75b76e7b8.jpeg",
+        "imgpath": "271_333f2392-7e3d-4222-96be-ee6602e1bca6.jpeg",
         "status": {
             "HP": 74,
             "MP": 87,
@@ -5794,7 +5794,7 @@
         "cost": 99,
         "color": "緑",
         "追加スキル": "",
-        "imgpath": "57011114-c0c4-4a08-adb6-ddff38bd978d.jpeg",
+        "imgpath": "272_2d257e2b-d1b3-431a-a32c-347b3ea5e9d5.jpeg",
         "status": {
             "HP": 114,
             "MP": 103,
@@ -5818,7 +5818,7 @@
         "cost": 104,
         "color": "黄",
         "追加スキル": "",
-        "imgpath": "2a3371c4-8f4b-450d-b17f-a30dcdc272fb.jpeg",
+        "imgpath": "273_a7ab974e-801f-4159-85e2-c42fdbac42b0.jpeg",
         "status": {
             "HP": 107,
             "MP": 43,
@@ -5839,7 +5839,7 @@
         "cost": 102,
         "color": "黄",
         "追加スキル": "",
-        "imgpath": "e4714935-9de1-49e8-8dc8-847c940f4087.jpeg",
+        "imgpath": "274_b0376634-e8e0-4fdf-a57a-f80a65346729.jpeg",
         "status": {
             "HP": 114,
             "MP": 47,
@@ -5861,7 +5861,7 @@
         "cost": 105,
         "color": "赤",
         "追加スキル": "",
-        "imgpath": "756ac572-1e1b-4aa1-a9f7-107959dbb32b.jpeg",
+        "imgpath": "276_c6d1c472-07e3-4171-bcec-ba3beae60a5f.jpeg",
         "status": {
             "HP": 88,
             "MP": 38,
@@ -5883,7 +5883,7 @@
         "cost": 104,
         "color": "紫",
         "追加スキル": "",
-        "imgpath": "782e881c-7e11-47d8-a40c-6960ff83ff29.jpeg",
+        "imgpath": "277_743d57f1-82a0-4f9f-b451-50d12c820836.jpeg",
         "status": {
             "HP": 61,
             "MP": 86,
@@ -5907,7 +5907,7 @@
         "cost": 47,
         "color": "青",
         "追加スキル": "",
-        "imgpath": "512d3bf5-fa17-485b-9bab-4924f2d94dd8.jpeg",
+        "imgpath": "271_0bf07ff3-590b-4e10-b1ab-f8be17841d36.jpeg",
         "status": {
             "HP": 57,
             "MP": 39,
@@ -5926,11 +5926,11 @@
     },
     "272": {
         "id": 281,
-        "name": "記念大王スライム記念大王スライム記念大王スライム記念大王スライム記念大王スライム",
+        "name": "記念大王スライム",
         "cost": 10,
         "color": "青",
         "追加スキル": "",
-        "imgpath": "e1ff08f6-270c-4d43-8013-64b9fb5772e2.jpeg",
+        "imgpath": "281_68a16e4c-13b4-4e25-ab48-3648ff9fc039.jpeg",
         "status": {
             "HP": 10,
             "MP": 10,
@@ -5951,7 +5951,7 @@
         "cost": 92,
         "color": "青",
         "追加スキル": "シャドーステップ",
-        "imgpath": "806163eb-e1d0-4bef-95d2-a0c6c55b4ed6.jpeg",
+        "imgpath": "282_545e0a83-a9e4-4138-9f62-091321bd1be8.jpeg",
         "status": {
             "HP": 97,
             "MP": 58,
@@ -5975,7 +5975,7 @@
         "cost": 93,
         "color": "紫",
         "追加スキル": "",
-        "imgpath": "c22fa953-592b-4ad7-8a56-75200b1b03d6.jpeg",
+        "imgpath": "283_9cba74cb-3537-4625-8da9-abc86c5b33ee.jpeg",
         "status": {
             "HP": 85,
             "MP": 61,
@@ -5999,7 +5999,7 @@
         "cost": 90,
         "color": "赤",
         "追加スキル": "まじん斬りまじん斬りまじん斬りまじん斬りまじん斬り",
-        "imgpath": "e914703a-5e86-4208-bee2-3d3606df3938.jpeg",
+        "imgpath": "284_4aeaccd0-499f-465f-9671-8c3312dbb3ce.jpeg",
         "status": {
             "HP": 100,
             "MP": 10,
@@ -6021,7 +6021,7 @@
         "cost": 99,
         "color": "黄",
         "追加スキル": "",
-        "imgpath": "94874fbd-baba-478d-8742-5ac855255bc6.jpeg",
+        "imgpath": "285_adddedf0-4492-4f46-b8fe-ce508b31f3ec.jpeg",
         "status": {
             "HP": 140,
             "MP": 56,
@@ -6045,7 +6045,7 @@
         "cost": 92,
         "color": "紫",
         "追加スキル": "",
-        "imgpath": "9dc97cb4-990c-4b8a-be82-7ea1449ae206.jpeg",
+        "imgpath": "286_2128dd1e-47a1-4839-91c8-16c7f489a880.jpeg",
         "status": {
             "HP": 84,
             "MP": 101,
@@ -6069,7 +6069,7 @@
         "cost": 39,
         "color": "緑",
         "追加スキル": "",
-        "imgpath": "de657896-60bf-4538-9ca5-76b4d829f814.jpeg",
+        "imgpath": "287_d923cc0a-4b17-4528-9bb1-d06a01958b5d.jpeg",
         "status": {
             "HP": 36,
             "MP": 36,
@@ -6088,7 +6088,7 @@
         "cost": 92,
         "color": "黄",
         "追加スキル": "",
-        "imgpath": "a8277235-6131-40e1-80cf-4066ffb492ec.jpeg",
+        "imgpath": "288_2c62524a-1fe8-4a67-bc64-41f9ddbb1860.jpeg",
         "status": {
             "HP": 93,
             "MP": 55,
@@ -6113,7 +6113,7 @@
         "cost": 39,
         "color": "黄",
         "追加スキル": "",
-        "imgpath": "d9a3746f-cb6a-4f68-8ef9-c3542a492e9d.jpeg",
+        "imgpath": "289_48c39c30-ec3c-4a53-ab02-4822237ee5d0.jpeg",
         "status": {
             "HP": 46,
             "MP": 17,
@@ -6132,7 +6132,7 @@
         "cost": 93,
         "color": "赤",
         "追加スキル": "",
-        "imgpath": "51c88111-f831-4adf-8ec6-9e4370c327e9.jpeg",
+        "imgpath": "290_afb01127-98b7-4c0b-9465-5df19fc44d6a.jpeg",
         "status": {
             "HP": 88,
             "MP": 38,
@@ -6155,7 +6155,7 @@
         "cost": 39,
         "color": "赤",
         "追加スキル": "",
-        "imgpath": "3e334a2c-17ce-4f75-aca8-7dc29dbee9d0.jpeg",
+        "imgpath": "291_be08b7b6-58f8-40ef-bb79-43c7baa0864d.jpeg",
         "status": {
             "HP": 37,
             "MP": 12,
@@ -6174,7 +6174,7 @@
         "cost": 42,
         "color": "緑",
         "追加スキル": "",
-        "imgpath": "eb790519-8f35-40b1-9019-eb8da8a99b87.jpeg",
+        "imgpath": "292_45356744-4018-4c98-8924-52e54d9a15e3.jpeg",
         "status": {
             "HP": 51,
             "MP": 51,
@@ -6197,7 +6197,7 @@
         "cost": 92,
         "color": "青",
         "追加スキル": "",
-        "imgpath": "58f0b143-65a2-4f65-9f74-58efd81248d2.jpeg",
+        "imgpath": "293_91fdc130-a11c-41ff-ae3f-e5ba4e935742.jpeg",
         "status": {
             "HP": 105,
             "MP": 63,
@@ -6220,7 +6220,7 @@
         "cost": 92,
         "color": "黄",
         "追加スキル": "",
-        "imgpath": "64587853-5791-4cb0-b8c4-15bd3fc3ad5d.jpeg",
+        "imgpath": "296_c5b535a9-03cf-41a9-9e24-fa0d165731d9.jpeg",
         "status": {
             "HP": 125,
             "MP": 21,
@@ -6243,7 +6243,7 @@
         "cost": 92,
         "color": "紫",
         "追加スキル": "",
-        "imgpath": "0921e931-5ee4-44e5-af1c-52e351f9737e.jpeg",
+        "imgpath": "297_b8c99bb2-ca53-440b-90cc-8e0c442fb8fe.jpeg",
         "status": {
             "HP": 75,
             "MP": 91,
@@ -6266,7 +6266,7 @@
         "cost": 92,
         "color": "緑",
         "追加スキル": "",
-        "imgpath": "f15ec7f3-3b0c-4fd1-b325-6d9b96518766.jpeg",
+        "imgpath": "298_c4e6e654-e111-4df2-bc58-975259628679.jpeg",
         "status": {
             "HP": 106,
             "MP": 87,
@@ -6289,7 +6289,7 @@
         "cost": 92,
         "color": "赤",
         "追加スキル": "",
-        "imgpath": "f9d7373b-8e6f-4404-abb6-99072ee2b020.jpeg",
+        "imgpath": "299_e5b14a3c-0bc6-40f0-87e4-7ab66fa4391e.jpeg",
         "status": {
             "HP": 102,
             "MP": 43,
@@ -6312,7 +6312,7 @@
         "cost": 92,
         "color": "青",
         "追加スキル": "",
-        "imgpath": "1f0b34ce-4726-463a-9e2f-c8b8fbc19d6f.jpeg",
+        "imgpath": "300_8d792e6a-441d-4701-8b84-618daea541e7.jpeg",
         "status": {
             "HP": 88,
             "MP": 53,
@@ -6331,11 +6331,11 @@
     },
     "290": {
         "id": 301,
-        "name": "バロン版キラーマシンバロン版キラーマシンバロン版キラーマシンバロン版キラーマシン",
+        "name": "バロン版キラーマシン",
         "cost": 93,
         "color": "青",
         "追加スキル": "",
-        "imgpath": "3eb5caf5-5bce-40fc-9643-b1bf839bd0f9.jpeg",
+        "imgpath": "301_40913663-a794-4f35-98bf-de8d11915571.jpeg",
         "status": {
             "HP": 63,
             "MP": 32,
@@ -6359,7 +6359,7 @@
         "cost": 93,
         "color": "緑",
         "追加スキル": "ベホイミ",
-        "imgpath": "c92d7cb8-2da7-4638-952f-5f95a359000a.jpeg",
+        "imgpath": "302_30c5f1e6-ebe7-4d03-a2a3-ca4999ef6710.jpeg",
         "status": {
             "HP": 60,
             "MP": 54,
@@ -6380,11 +6380,11 @@
     },
     "292": {
         "id": 303,
-        "name": "魔王ハドラー魔王ハドラー魔王ハドラー魔王ハドラー",
+        "name": "魔王ハドラー",
         "cost": 93,
         "color": "紫",
         "追加スキル": "",
-        "imgpath": "294abab9-2432-4b3c-bc38-526fbf68ce4d.jpeg",
+        "imgpath": "303_1a07be1f-b8ff-4b49-a71b-ae23c1918ad4.jpeg",
         "status": {
             "HP": 84,
             "MP": 101,
@@ -6408,7 +6408,7 @@
         "cost": 92,
         "color": "黄",
         "追加スキル": "ＨＰ２５％以上で致死ダメージ時にごくまれにＨＰ１で生き残るＨＰ２５％以上で致死ダメージ時にごくまれにＨＰ１で生き残るＨＰ２５％以上で致死ダメージ時にごくまれにＨＰ１で生き残るＨＰ２５％以上で致死ダメージ時にごくまれにＨＰ１で生き残る",
-        "imgpath": "fc9af53b-a91c-489b-868d-d02e6fe93979.jpeg",
+        "imgpath": "304_6ed92024-f72f-4a6c-a762-84a3d299c44a.jpeg",
         "status": {
             "HP": 125,
             "MP": 21,
@@ -6431,7 +6431,7 @@
         "cost": 89,
         "color": "赤",
         "追加スキル": "",
-        "imgpath": "ed0b6a62-2619-4871-96b3-3526ce28b90f.jpeg",
+        "imgpath": "306_fc48f98a-529b-4f74-9088-f193aba535b1.jpeg",
         "status": {
             "HP": 55,
             "MP": 29,
@@ -6455,7 +6455,7 @@
         "cost": 84,
         "color": "紫",
         "追加スキル": "",
-        "imgpath": "9db3d92a-b267-4d2b-a501-806f6a15fb9b.jpeg",
+        "imgpath": "307_f7e95543-a917-4cbe-8fe7-0f14409df953.jpeg",
         "status": {
             "HP": 77,
             "MP": 59,
@@ -6480,7 +6480,7 @@
         "cost": 99,
         "color": "紫",
         "追加スキル": "",
-        "imgpath": "b71cbfff-da8f-44f7-88ec-815ecb2a06e8.jpeg",
+        "imgpath": "308_8473fa71-113f-4df2-a296-405c86a2409c.jpeg",
         "status": {
             "HP": 120,
             "MP": 125,
@@ -6501,11 +6501,11 @@
     },
     "297": {
         "id": 310,
-        "name": "賀正大王スライム賀正大王スライム賀正大王スライム賀正大王スライム",
+        "name": "賀正大王スライム",
         "cost": 21,
         "color": "青",
         "追加スキル": "",
-        "imgpath": "ecd45557-b17e-40a3-ac69-054ef8d278c1.jpeg",
+        "imgpath": "310_16ae68d3-6a08-42a6-abf2-f193fb52e009.jpeg",
         "status": {
             "HP": 20,
             "MP": 20,
@@ -6524,7 +6524,7 @@
         "cost": 101,
         "color": "赤",
         "追加スキル": "",
-        "imgpath": "9a2e53d4-fe74-479e-9d97-bdce6366594a.jpeg",
+        "imgpath": "311_6d68cdf9-9800-4f73-9669-38268bcd256e.jpeg",
         "status": {
             "HP": 112,
             "MP": 47,
@@ -6547,7 +6547,7 @@
         "cost": 39,
         "color": "青",
         "追加スキル": "",
-        "imgpath": "5e07ce21-6a69-4e1f-bbc1-abc3c1832d10.jpeg",
+        "imgpath": "312_fac85a42-201a-4629-ad92-41d3ddab2004.jpeg",
         "status": {
             "HP": 36,
             "MP": 25,
@@ -6566,7 +6566,7 @@
         "cost": 96,
         "color": "赤",
         "追加スキル": "",
-        "imgpath": "391650ce-40e3-446b-877d-e46a4b73561d.jpeg",
+        "imgpath": "313_6d4e0c62-7c8b-47d5-83a6-216d2999618a.jpeg",
         "status": {
             "HP": 71,
             "MP": 35,
@@ -6589,7 +6589,7 @@
         "cost": 98,
         "color": "緑",
         "追加スキル": "",
-        "imgpath": "0e452321-f9fa-4bbf-a651-2a01a15ba67b.jpeg",
+        "imgpath": "314_b81265f0-e2cd-46b3-b73a-b1a656b0211a.jpeg",
         "status": {
             "HP": 125,
             "MP": 100,
@@ -6614,7 +6614,7 @@
         "cost": 78,
         "color": "青",
         "追加スキル": "",
-        "imgpath": "8866b210-974c-4694-8fe3-27dfbda8d230.jpeg",
+        "imgpath": "315_4ac1057c-910a-4167-968d-33883462eded.jpeg",
         "status": {
             "HP": 56,
             "MP": 29,
@@ -6638,7 +6638,7 @@
         "cost": 95,
         "color": "紫",
         "追加スキル": "",
-        "imgpath": "b4380bc4-929c-483e-9273-27cf81073249.jpeg",
+        "imgpath": "316_ee36da13-1007-44c1-9ebd-1939664b655e.jpeg",
         "status": {
             "HP": 86,
             "MP": 62,
@@ -6662,7 +6662,7 @@
         "cost": 101,
         "color": "赤",
         "追加スキル": "",
-        "imgpath": "49c31865-3ac9-4bca-b2f5-036fed7db4f2.jpeg",
+        "imgpath": "317_93139fcc-365f-417a-b2ac-d0587ef0424e.jpeg",
         "status": {
             "HP": 71,
             "MP": 30,
@@ -6681,7 +6681,7 @@
         "cost": 96,
         "color": "青",
         "追加スキル": "",
-        "imgpath": "12b48a96-ecce-432c-bf7f-ea7757cb11e6.jpeg",
+        "imgpath": "318_b2391cea-856e-40dc-b769-55fc8d7303e6.jpeg",
         "status": {
             "HP": 83,
             "MP": 53,
@@ -6702,7 +6702,7 @@
         "cost": 102,
         "color": "青",
         "追加スキル": "",
-        "imgpath": "5e203847-5aaa-490e-a183-025bc9272c7d.jpeg",
+        "imgpath": "319_5aaaf25e-8a6c-4e9e-b099-fb7a80ed2ff9.jpeg",
         "status": {
             "HP": 81,
             "MP": 49,
@@ -6721,7 +6721,7 @@
         "cost": 105,
         "color": "黄",
         "追加スキル": "",
-        "imgpath": "b3312e70-c0fd-41f5-b123-9a65a6a10baa.jpeg",
+        "imgpath": "320_22aa66cc-e64a-44de-937c-37af22613ad0.jpeg",
         "status": {
             "HP": 99,
             "MP": 40,
@@ -6740,7 +6740,7 @@
         "cost": 107,
         "color": "紫",
         "追加スキル": "",
-        "imgpath": "a6c0483c-2e30-4ca6-a359-43cb25e882a7.jpeg",
+        "imgpath": "321feecff76-3499-47ff-ba73-778183c83401.jpeg",
         "status": {
             "HP": 72,
             "MP": 82,
@@ -6759,7 +6759,7 @@
         "cost": 107,
         "color": "青",
         "追加スキル": "",
-        "imgpath": "ebb08cc5-b3de-4bd1-a966-2c432b57b029.jpeg",
+        "imgpath": "322_af0e17ad-b8e9-4deb-ba0a-c888779a72f9.jpeg",
         "status": {
             "HP": 105,
             "MP": 50,
@@ -6783,7 +6783,7 @@
         "cost": 92,
         "color": "緑",
         "追加スキル": "",
-        "imgpath": "742f39c0-d0cf-4b77-92b2-48c7ac793cde.jpeg",
+        "imgpath": "330_972c95c7-5e77-4cd9-8001-5c88ae072be9.jpeg",
         "status": {
             "HP": 64,
             "MP": 59,
@@ -6808,7 +6808,7 @@
         "cost": 102,
         "color": "青",
         "追加スキル": "イカスミショット",
-        "imgpath": "285ed683-1cc1-47d8-b373-8a774d3cfe5e.jpeg",
+        "imgpath": "331_163c87ae-1f69-4db0-8393-9a7b7747e52b.jpeg",
         "status": {
             "HP": 129,
             "MP": 76,
@@ -6831,7 +6831,7 @@
         "cost": 47,
         "color": "黄",
         "追加スキル": "",
-        "imgpath": "18f9af1f-7c4f-477a-aa69-eaa0f84a7298.jpeg",
+        "imgpath": "332_4560598a-90cf-4df8-8f93-f16dda44062b.jpeg",
         "status": {
             "HP": 59,
             "MP": 23,
@@ -6852,7 +6852,7 @@
         "cost": 99,
         "color": "赤",
         "追加スキル": "",
-        "imgpath": "1ad6e094-f5dd-49d5-a4ad-1b0112dcfe2a.jpeg",
+        "imgpath": "333_b2f31229-716f-4443-bba0-7148056a0fa0.jpeg",
         "status": {
             "HP": 110,
             "MP": 47,
@@ -6875,7 +6875,7 @@
         "cost": 66,
         "color": "黄",
         "追加スキル": "",
-        "imgpath": "294abab9-2432-4b3c-bc38-526fbf68ce4d.jpeg",
+        "imgpath": "333_e2fb51cb-150f-496d-b3d9-9e51b9a41017.jpeg",
         "status": {
             "HP": 47,
             "MP": 19,
@@ -6899,7 +6899,7 @@
         "cost": 66,
         "color": "青",
         "追加スキル": "マホトーン",
-        "imgpath": "7f4cb4e3-95b8-4a0f-a6f1-31f07565c688.jpeg",
+        "imgpath": "",
         "status": {
             "HP": 74,
             "MP": 53,
@@ -6921,7 +6921,7 @@
         "cost": 87,
         "color": "黄",
         "追加スキル": "大地斬、メガンテ大地斬、メガンテ",
-        "imgpath": "e805b78b-4fff-4653-9024-cfbb46488fe9.jpeg",
+        "imgpath": "9002(ドラゴラム)_30c5f1e6-ebe7-4d03-a2a3-ca4999ef6710.jpeg",
         "status": {
             "HP": 83,
             "MP": 44,

@@ -7,7 +7,7 @@ import {
 } from '@material-ui/core';
 
 import CustomButton from 'containers/atoms/CustomButton';
-import { colorChange, selectColor } from 'slices/draque';
+import { colorChange, selectColor, statusChange } from 'slices/draque';
 import type { colorKind, colorFilter } from 'slices/draque';
 import { useDispatch, useSelector } from 'react-redux';
 
@@ -61,6 +61,7 @@ const ColorSection:React.FC = () => {
 
   const handleChangeBase = (color: colorKind) => {// eslint-disable-line
     dispatch(colorChange(color));
+    dispatch(statusChange());
   };
 
   return (

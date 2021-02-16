@@ -3,13 +3,14 @@ import React from 'react';
 import type{
   kokoro, baseStatusFilter, optionFilterBefore, selectKokoro, kokoroFit,
 } from 'slices/draque';
-import { addKokoro, statusChange } from 'slices/draque';
+import { addKokoro, statusChange, selectJob } from 'slices/draque';
 import Modal from 'react-modal';
 import {
   Box, Button, Grid, Typography,
 } from '@material-ui/core';
-import { useDispatch } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
 import { makeStyles } from '@material-ui/core/styles';
+import { JobFavariteTeisu } from 'constants/Teisu';
 
 Modal.setAppElement('#root');
 
@@ -43,9 +44,14 @@ const useStyles = makeStyles((theme) => ({
   img: {
     textAlign: 'center',
   },
+  imgWaku: {
+    width: 100,
+    height: 100,
+  },
 
   btn: {
     padding: '10px',
+    marginLeft: '5px',
   },
   content: {
     flexGrow: 1,
@@ -75,6 +81,7 @@ const ModalWin:React.FC<ModalProps> = ({
 }) => {
   const dispatch = useDispatch();
   const classes = useStyles();
+  const jobPick = useSelector(selectJob);
 
   // const [modalIsOpen, setIsOpen] = React.useState(flg);
   const addKokoroDispath = (id:string) => {
@@ -134,14 +141,16 @@ const ModalWin:React.FC<ModalProps> = ({
               }
                 </Grid>
               </Grid>
+
             </>
           ) : 'poka'
         }
-
-        <Button className={classes.button} variant="contained" onClick={() => addKokoroDispath('1')}>1</Button>
-        <Button className={classes.button} variant="contained" onClick={() => addKokoroDispath('2')}>2</Button>
-        <Button className={classes.button} variant="contained" onClick={() => addKokoroDispath('3')}>3</Button>
-        <Button className={classes.button} variant="contained" onClick={() => addKokoroDispath('4')}>4</Button>
+        <Box className={classes.btn}>
+          <Button className={classes.btn} variant="contained" onClick={() => addKokoroDispath('1')}>{JobFavariteTeisu[jobPick]['1']}</Button>
+          <Button className={classes.btn} variant="contained" onClick={() => addKokoroDispath('2')}>{JobFavariteTeisu[jobPick]['2']}</Button>
+          <Button className={classes.btn} variant="contained" onClick={() => addKokoroDispath('3')}>{JobFavariteTeisu[jobPick]['3']}</Button>
+          <Button className={classes.btn} variant="contained" onClick={() => addKokoroDispath('4')}>{JobFavariteTeisu[jobPick]['4']}</Button>
+        </Box>
       </Modal>
 
     </div>

@@ -1,3 +1,4 @@
+/* eslint-disable no-restricted-syntax */
 /* eslint-disable no-plusplus */
 /* eslint-disable no-alert */
 /* eslint-disable import/no-cycle */
@@ -40,7 +41,10 @@ export type colorFilter = {
 }
 
 // 2) order
-type orderFilter = keyof PickType<TypeDoraSolo, 'status'>
+export type orderFilter = keyof PickType<TypeDoraSolo, 'status'>
+
+// 2.1) order
+export type orderDestAsc = '昇順' | '降順'
 
 // 3) status
 export type baseStatusFilter = PickType<TypeDoraSolo, 'status'>
@@ -52,7 +56,7 @@ export type optionFilterBefore = PickType<TypeDoraSolo, 'option'>
 export type optionFilter = PickTypeBase<optionFilterBefore, boolean>
 
 // 5) ジョブ
-export type jobFilter = 'バトルマスター' | 'レンジャー' | '賢者' | 'パラディン'
+export type jobFilter = 'バトルマスター' | 'レンジャー' | '賢者' | 'パラディン' | 'スーパースター'| '魔法戦士' | '海賊'
 
 // 6) kokoro 枠
 export type kokoroFit = '1' | '2' | '3' | '4'
@@ -90,7 +94,7 @@ const initialKokoro:kokoro = {
   name: 'blank',
   cost: 10,
   追加スキル: '',
-  imgpath: '青緑.png',
+  imgpath: 'None.png',
   status: {
     HP: 0,
     MP: 0,
@@ -109,6 +113,7 @@ type initialStateType ={
         [id in keyof colorFilter]:boolean
     }
     order:orderFilter,
+    orderWhich:orderDestAsc,
     option:optionFilter,
     job:jobFilter,
     dispKokoro:{
@@ -117,6 +122,7 @@ type initialStateType ={
     filterKokoro:{
       [id in string]:kokoro
     },
+    filterKokoro2:string[],
     allkokoro:{
         [id in string]:kokoro
     },
@@ -137,6 +143,7 @@ const initialState:initialStateType = {
     緑: true,
   },
   order: 'HP',
+  orderWhich: '降順',
   option: {
     斬撃アップ: false,
     体技アップ: false,
@@ -241,14 +248,15 @@ const initialState:initialStateType = {
     じゅもん防御減: false,
     すばやさ減: false,
   },
-  job: 'パラディン',
+  job: 'バトルマスター',
   dispKokoro: {
-    1: initialKokoro,
-    2: initialKokoro,
-    3: initialKokoro,
-    4: initialKokoro,
+    1: { ...initialKokoro, imgpath: JobFavaritePic['バトルマスター']['1'] },
+    2: { ...initialKokoro, imgpath: JobFavaritePic['バトルマスター']['2'] },
+    3: { ...initialKokoro, imgpath: JobFavaritePic['バトルマスター']['3'] },
+    4: { ...initialKokoro, imgpath: JobFavaritePic['バトルマスター']['4'] },
   },
   filterKokoro: {},
+  filterKokoro2: [],
   allkokoro: kokoroList,
   calsBaseStatus: {
     HP: 0,
@@ -366,6 +374,25 @@ const initialState:initialStateType = {
   },
 };
 
+// const SortKokoro=(Target:kokoroAllList)=>{
+//   _sortedMovies = Target.sort((a, b) => {
+//     a = a[sort.key];
+//     b = b[sort.key];
+
+//     if(a === b) {
+//       return 0;
+//     }
+//     if(a > b) {
+//       return 1 * sort.order;
+//     }
+//     if(a < b) {
+//       return -1 * sort.order;
+//     }
+//   });
+// }
+// return _sortedMovies;
+// }
+
 type colorChange = keyof colorFilter
 
 const dqwolkSlice = createSlice({
@@ -380,6 +407,9 @@ const dqwolkSlice = createSlice({
     },
     orderChange: (state, action:PayloadAction<orderFilter>) => {
       state.order = action.payload;
+    },
+    orderChange2: (state, action:PayloadAction<orderDestAsc>) => {
+      state.orderWhich = action.payload;
     },
     optionChange: (state, action:PayloadAction<optionKind>) => {
       state.option[action.payload] = !state.option[action.payload];
@@ -426,6 +456,18 @@ const dqwolkSlice = createSlice({
       state.calsBaseStatus = initialState.calsBaseStatus;
       state.calcOptionStatus = initialState.calcOptionStatus;
     },
+    orderResult: (state) => {
+      const hoge = state.filterKokoro2.sort((a, b) => {
+        const aa = state.allkokoro[a].status[state.order];
+        const bb = state.allkokoro[b].status[state.order];
+        if (state.orderWhich === '昇順') {
+          return aa < bb ? 1 : -1;
+        }
+
+        return aa > bb ? 1 : -1;
+      });
+      state.filterKokoro2 = hoge;
+    },
     filsterDipsKokoro: (state) => {
       const colorList = (Object.keys(state.color) as (keyof colorFilter)[]).filter((i) => state.color[i]);
       const colorFiltered = Object.keys(state.allkokoro)
@@ -449,10 +491,29 @@ const dqwolkSlice = createSlice({
 
       const result = {} as kokoroAllList;
       // eslint-disable-next-line no-restricted-syntax
-      for (const i of filterDamageUpList) {
+
+      const hoge = filterDamageUpList.sort((a, b) => {
+        const aa = state.allkokoro[a].status[state.order];
+        const bb = state.allkokoro[b].status[state.order];
+        if (state.orderWhich === '昇順') {
+          return aa < bb ? 1 : -1;
+        }
+
+        return aa > bb ? 1 : -1;
+
+        // return 1;
+      });
+      state.filterKokoro2 = hoge;
+
+      for (const i of hoge) {
         result[i] = state.allkokoro[i];
-        // alert(result[i]);
       }
+
+      // for (const i of filterDamageUpList) {
+      //   result[i] = state.allkokoro[i];
+      //   // alert(result[i]);
+      // }
+
       state.filterKokoro = result;
     },
     filterTest: (state) => {
@@ -465,7 +526,7 @@ const dqwolkSlice = createSlice({
 });
 
 export const {
-  addKokoro, colorChange, orderChange, jobChange, statusChange, optionChange, filsterDipsKokoro, resetDispKokoro,
+  addKokoro, colorChange, orderChange, jobChange, statusChange, optionChange, filsterDipsKokoro, resetDispKokoro, orderChange2, orderResult,
 } = dqwolkSlice.actions;
 
 export const selectJob = (state: RootState) => state.draque.job// eslint-disable-line
@@ -473,6 +534,7 @@ export const selectColor = (state: RootState) => state.draque.color// eslint-dis
 export const selectDamageUp = (state: RootState) => state.draque.option;// eslint-disable-line
 export const selectDipsKokoro = (state: RootState) => state.draque.dispKokoro;// eslint-disable-line
 export const selectFilterKokoro = (state: RootState) => state.draque.filterKokoro;// eslint-disable-line
+export const selectFilterKokoro2 = (state: RootState) => state.draque.filterKokoro2;// eslint-disable-line
 export const selectAllKokoro = (state: RootState) => state.draque.allkokoro;// eslint-disable-line
 export const selectBaseStatus = (state: RootState) => state.draque.calsBaseStatus// eslint-disable-line
 export const selectOffenceStatus = (state: RootState) => state.draque.calcOptionStatus// eslint-disable-line
