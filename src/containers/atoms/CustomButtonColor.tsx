@@ -29,7 +29,7 @@ const useStyles = makeStyles({
   },
 });
 
-const CustomButton: React.FC<PROPS_CUSTOMBUTTON> = ({
+const CustomButtonColor: React.FC<PROPS_CUSTOMBUTTON> = ({
   themeColor, defaultColor, handleChangeBase, dispShow, fontSize,
 }) => {
   const [color, setColor] = useState(themeColor);
@@ -49,4 +49,4 @@ const CustomButton: React.FC<PROPS_CUSTOMBUTTON> = ({
   );
 };
 
-export default CustomButton;
+export default CustomButtonColor;

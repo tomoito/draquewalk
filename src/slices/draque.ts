@@ -114,6 +114,7 @@ type initialStateType ={
     }
     order:orderFilter,
     orderWhich:orderDestAsc,
+    skillInclude:boolean,
     option:optionFilter,
     job:jobFilter,
     dispKokoro:{
@@ -144,6 +145,7 @@ const initialState:initialStateType = {
   },
   order: 'HP',
   orderWhich: '降順',
+  skillInclude: false,
   option: {
     斬撃アップ: false,
     体技アップ: false,
@@ -411,6 +413,9 @@ const dqwolkSlice = createSlice({
     orderChange2: (state, action:PayloadAction<orderDestAsc>) => {
       state.orderWhich = action.payload;
     },
+    skillChange: (state) => {
+      state.skillInclude = !state.skillInclude;
+    },
     optionChange: (state, action:PayloadAction<optionKind>) => {
       state.option[action.payload] = !state.option[action.payload];
     },
@@ -460,7 +465,7 @@ const dqwolkSlice = createSlice({
       const hoge = state.filterKokoro2.sort((a, b) => {
         const aa = state.allkokoro[a].status[state.order];
         const bb = state.allkokoro[b].status[state.order];
-        if (state.orderWhich === '昇順') {
+        if (state.orderWhich === '降順') {
           return aa < bb ? 1 : -1;
         }
 
@@ -489,13 +494,17 @@ const dqwolkSlice = createSlice({
         return !matched.includes(false);
       });
 
+      // skill
+
+      const skillInclude = filterDamageUpList.filter((i) => state.skillInclude === false || state.allkokoro[i].追加スキル !== '');
+
       const result = {} as kokoroAllList;
       // eslint-disable-next-line no-restricted-syntax
 
-      const hoge = filterDamageUpList.sort((a, b) => {
+      const hoge = skillInclude.sort((a, b) => {
         const aa = state.allkokoro[a].status[state.order];
         const bb = state.allkokoro[b].status[state.order];
-        if (state.orderWhich === '昇順') {
+        if (state.orderWhich === '降順') {
           return aa < bb ? 1 : -1;
         }
 
@@ -505,16 +514,16 @@ const dqwolkSlice = createSlice({
       });
       state.filterKokoro2 = hoge;
 
-      for (const i of hoge) {
-        result[i] = state.allkokoro[i];
-      }
+      // for (const i of hoge) {
+      //   result[i] = state.allkokoro[i];
+      // }
 
       // for (const i of filterDamageUpList) {
       //   result[i] = state.allkokoro[i];
       //   // alert(result[i]);
       // }
 
-      state.filterKokoro = result;
+      // state.filterKokoro = result;
     },
     filterTest: (state) => {
       const colorList = ['赤'];
@@ -526,7 +535,7 @@ const dqwolkSlice = createSlice({
 });
 
 export const {
-  addKokoro, colorChange, orderChange, jobChange, statusChange, optionChange, filsterDipsKokoro, resetDispKokoro, orderChange2, orderResult,
+  addKokoro, colorChange, orderChange, jobChange, statusChange, optionChange, filsterDipsKokoro, resetDispKokoro, orderChange2, orderResult, skillChange,
 } = dqwolkSlice.actions;
 
 export const selectJob = (state: RootState) => state.draque.job// eslint-disable-line

@@ -64,10 +64,10 @@ const FilterKokoro:React.FC = () => {
         <Button onClick={() => funcJobChange('海賊')} variant="outlined" color="primary">海賊</Button> */}
       </Box>
 
-      <Grid container>
+      <Grid container spacing={4}>
         {
           (Object.keys(selectFilter) as (keyof kokoroFitFilter)[]).map((i) => (
-            <Grid item xs={3}>
+            <Grid item>
               <Typography>{JobFavariteTeisu[Job][i]}</Typography>
               <img className={classes.btncirclestitch} alt={selectFilter[i].name} src={`${process.env.PUBLIC_URL}/pic/${selectFilter[i].imgpath}`} />
               <Typography>

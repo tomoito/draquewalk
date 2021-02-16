@@ -8,7 +8,7 @@ import {
 
 import CustomButton from 'containers/atoms/CustomButton';
 import {
-  optionChange, selectDamageUp, filsterDipsKokoro, statusChange,
+  optionChange, selectDamageUp, filsterDipsKokoro, skillChange,
 } from 'slices/draque';
 import type { optionKind, optionFilter } from 'slices/draque';
 import { useDispatch, useSelector } from 'react-redux';
@@ -66,16 +66,24 @@ const OptionSection:React.FC = () => {
     dispatch(filsterDipsKokoro());
   };
 
+  const handleChangeSkill = () => {// eslint-disable-line
+    dispatch(skillChange());
+    dispatch(filsterDipsKokoro());
+  };
+
   return (
     <div>
       <Grid container spacing={2}>
         {
         (Object.keys(color) as (keyof optionFilter)[]).map((i) => (
-          <Grid item xs={3}>
-            <CustomButton defaultColor="linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%)" themeColor="white" handleChangeBase={() => handleChangeBase(i)} dispShow={i} />
+          <Grid item xs={4}>
+            <CustomButton fontSize={13} defaultColor="linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%)" themeColor="white" handleChangeBase={() => handleChangeBase(i)} dispShow={i} />
           </Grid>
         ))
       }
+        <Grid item xs={4}>
+          <CustomButton fontSize={13} defaultColor="linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%)" themeColor="white" handleChangeBase={handleChangeSkill} dispShow="スキル持ち" />
+        </Grid>
       </Grid>
     </div>
   );

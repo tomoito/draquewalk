@@ -1,3 +1,4 @@
+/* eslint-disable max-len */
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 
@@ -12,7 +13,14 @@ import type { colorKind, colorFilter } from 'slices/draque';
 import { useDispatch, useSelector } from 'react-redux';
 
 const drawerWidth = 240;
-
+// 赤、青、緑、紫
+const colorList = [
+  ['赤', 'linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%)'],
+  ['黄', 'linear-gradient(45deg, #FFFF99 30%, #FFFF66 90%)'],
+  ['青', 'linear-gradient(45deg, #2196F3 30%, #21CBF3 90%)'],
+  ['緑', 'linear-gradient(45deg, #AED581 30%, #7CB342 90%)'],
+  ['紫', 'linear-gradient(45deg, #9575CD 30%, #7E57C2 90%)'],
+];
 const useStyles = makeStyles((theme) => ({
   root: {
     display: 'flex',
@@ -67,13 +75,20 @@ const ColorSection:React.FC = () => {
   return (
     <div>
       <Grid container spacing={2}>
-        {
-        (Object.keys(color) as (keyof colorFilter)[]).map((i) => (
+        {/* {
+        (Object.keys(color) as (keyof colorFilter)[]).map((i, x) => (
           <Grid item xs={3}>
-            <CustomButton defaultColor="white" themeColor="linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%)" handleChangeBase={() => handleChangeBase(i)} dispShow={i} />
+            <CustomButton fontSize={30} defaultColor="white" themeColor={colorList[x]} handleChangeBase={() => handleChangeBase(i)} dispShow={i} />
           </Grid>
         ))
-      }
+      } */}
+        {
+    colorList.map((i) => (
+      <Grid item xs={3}>
+        <CustomButton fontSize={25} defaultColor="white" themeColor={i[1]} handleChangeBase={() => handleChangeBase(i[0] as colorKind)} dispShow={i[0]} />
+      </Grid>
+    ))
+    }
       </Grid>
     </div>
   );

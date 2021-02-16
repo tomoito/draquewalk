@@ -12,12 +12,12 @@ import type { orderFilter, orderDestAsc } from 'slices/draque';
 import { orderChange, orderChange2, orderResult } from 'slices/draque';
 import { Grid } from '@material-ui/core';
 
-const options = ['HP', 'MP', '攻撃力', '防御力', '攻撃魔法', '回復魔力'];
+const options = ['HP', 'MP', '攻撃力', '守備力', '攻撃魔法', '回復魔力'];
 const options2 = ['昇順', '降順'];
 
 const OrderSection:React.FC = () => {
   const [value, setValue] = React.useState<string | null>(options[0]);
-  const [value2, setValue2] = React.useState<string>(options2[0]);
+  const [value2, setValue2] = React.useState<string>(options2[1]);
   const dispatch = useDispatch();
 
   // const handleChange = (e:orderFilter) => {// eslint-disable-line

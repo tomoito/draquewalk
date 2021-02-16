@@ -139,6 +139,16 @@ const ModalWin:React.FC<ModalProps> = ({
                     </Typography>
                   ))
               }
+                  {
+                kokoroModal.追加スキル !== '' ? (
+                  <div>
+                    <Typography>
+                      保有スキル:
+                      {kokoroModal.追加スキル}
+                    </Typography>
+                  </div>
+                ) : ''
+              }
                 </Grid>
               </Grid>
 
