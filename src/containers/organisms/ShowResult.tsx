@@ -3,7 +3,7 @@ import React from 'react';
 import { makeStyles, createStyles } from '@material-ui/core/styles';
 
 import { selectBaseStatus, selectOffenceStatus } from 'slices/draque';
-import type { baseStatusFilter, optionFilterBefore } from 'slices/draque';
+import type { baseStatusFilter, optionFilterBefore, orderFilter } from 'slices/draque';
 import { useSelector } from 'react-redux';
 import styles from './ResultStatus.module.css';
 
@@ -27,9 +27,10 @@ const ShowResult:React.FC = () => {
       <div className={styles.box1}>
         <Typography variant="h4">ステータス!</Typography>
       </div>
+
       {
-                (Object.keys(baseSum) as (keyof baseStatusFilter)[]).map((dmgUp) => (
-                  <Typography variant="h5">
+                (Object.keys(baseSum) as (orderFilter)[]).map((dmgUp) => (
+                  <Typography variant="h5" key={dmgUp}>
                     {dmgUp}
                     :
                     {baseSum[dmgUp]}
@@ -37,6 +38,7 @@ const ShowResult:React.FC = () => {
                 ))
 
       }
+
       <br />
       <div className={styles.box1}>
 
@@ -46,7 +48,7 @@ const ShowResult:React.FC = () => {
                 (Object.keys(optionSum) as (keyof optionFilterBefore)[]).map((dmgUp) => (
                   optionSum[dmgUp] === 0 ? ''
                     : (
-                      <Typography variant="h5">
+                      <Typography variant="h5" key={dmgUp}>
                         {
                         dmgUp
                       }

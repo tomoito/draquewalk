@@ -1,3 +1,4 @@
+/* eslint-disable no-nested-ternary */
 /* eslint-disable no-restricted-syntax */
 /* eslint-disable no-plusplus */
 /* eslint-disable no-alert */
@@ -41,7 +42,11 @@ export type colorFilter = {
 }
 
 // 2) order
-export type orderFilter = keyof PickType<TypeDoraSolo, 'status'>
+export type orderFilter = keyof PickType<TypeDoraSolo, 'status'> | keyof statusAdd
+type statusAdd ={
+  攻魔複合:number,
+  コスト:number,
+}
 
 // 2.1) order
 export type orderDestAsc = '昇順' | '降順'
@@ -92,7 +97,7 @@ const initialKokoro:kokoro = {
   id: 1,
   color: '紫',
   name: 'blank',
-  cost: 10,
+  cost: 0,
   追加スキル: '',
   imgpath: 'None.png',
   status: {
@@ -104,6 +109,7 @@ const initialKokoro:kokoro = {
     回復魔力: 0,
     きようさ: 0,
     すばやさ: 0,
+
   },
   option: {},
 };
@@ -137,13 +143,13 @@ type initialStateType ={
 
 const initialState:initialStateType = {
   color: {
-    紫: true,
-    赤: true,
-    青: true,
-    黄: true,
-    緑: true,
+    紫: false,
+    赤: false,
+    青: false,
+    黄: false,
+    緑: false,
   },
-  order: 'HP',
+  order: 'コスト',
   orderWhich: '降順',
   skillInclude: false,
   option: {
@@ -269,6 +275,8 @@ const initialState:initialStateType = {
     回復魔力: 0,
     すばやさ: 0,
     きようさ: 0,
+    攻魔複合: 0,
+    コスト: 0,
   },
   calcOptionStatus: {
     斬撃アップ: 0,
@@ -434,8 +442,6 @@ const dqwolkSlice = createSlice({
       state.calsBaseStatus = { ...initialState.calsBaseStatus };
       state.calcOptionStatus = { ...initialState.calcOptionStatus };
 
-      const hoge = jobCalc[state.job]['1']['紫'];
-
       (Object.keys(state.dispKokoro) as (keyof kokoroFitFilter)[]).map((kokoroNum) => {
         (Object.keys(state.calsBaseStatus) as (keyof baseStatusFilter)[]).map((dmgUp) => {
           const numOffence = state.dispKokoro[kokoroNum].status[dmgUp];
@@ -451,7 +457,9 @@ const dqwolkSlice = createSlice({
             state.calcOptionStatus[resUp] += numResistance;
           }
         });
+        state.calsBaseStatus['コスト'] += state.dispKokoro[kokoroNum].cost;
       });
+      state.calsBaseStatus['攻魔複合'] = state.calsBaseStatus['攻撃力'] + state.calsBaseStatus['攻撃魔法'];
     },
     resetDispKokoro: (state) => {
       (Object.keys(state.dispKokoro) as (keyof kokoroFitFilter)[]).map((kokoroNum) => {
@@ -463,8 +471,13 @@ const dqwolkSlice = createSlice({
     },
     orderResult: (state) => {
       const hoge = state.filterKokoro2.sort((a, b) => {
-        const aa = state.allkokoro[a].status[state.order];
-        const bb = state.allkokoro[b].status[state.order];
+        const aa = state.order === '攻魔複合' ? state.allkokoro[a].status['攻撃力'] + state.allkokoro[a].status['攻撃魔法'] : state.order === 'コスト' ? state.allkokoro[a].cost : state.allkokoro[a].status[state.order];
+
+        const bb = state.order === '攻魔複合' ? state.allkokoro[b].status['攻撃力'] + state.allkokoro[b].status['攻撃魔法'] : state.order === 'コスト' ? state.allkokoro[b].cost : state.allkokoro[b].status[state.order];
+        // const aa = state.order === '攻魔複合' ? state.allkokoro[a].status['攻撃力'] + state.allkokoro[a].status['攻撃魔法'] : state.order === 'コスト' ? : state.allkokoro[a].cost : state.allkokoro[a].status[state.order];
+
+        // const bb = state.order === '攻魔複合' ? state.allkokoro[b].status['攻撃力'] + state.allkokoro[b].status['攻撃魔法'] : state.allkokoro[b].status[state.order];
+
         if (state.orderWhich === '降順') {
           return aa < bb ? 1 : -1;
         }
@@ -502,8 +515,10 @@ const dqwolkSlice = createSlice({
       // eslint-disable-next-line no-restricted-syntax
 
       const hoge = skillInclude.sort((a, b) => {
-        const aa = state.allkokoro[a].status[state.order];
-        const bb = state.allkokoro[b].status[state.order];
+        const aa = state.order === '攻魔複合' ? state.allkokoro[a].status['攻撃力'] + state.allkokoro[a].status['攻撃魔法'] : state.order === 'コスト' ? state.allkokoro[a].cost : state.allkokoro[a].status[state.order];
+
+        const bb = state.order === '攻魔複合' ? state.allkokoro[b].status['攻撃力'] + state.allkokoro[b].status['攻撃魔法'] : state.order === 'コスト' ? state.allkokoro[b].cost : state.allkokoro[b].status[state.order];
+
         if (state.orderWhich === '降順') {
           return aa < bb ? 1 : -1;
         }

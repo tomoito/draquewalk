@@ -67,7 +67,7 @@ const FilterKokoro:React.FC = () => {
       <Grid container spacing={4}>
         {
           (Object.keys(selectFilter) as (keyof kokoroFitFilter)[]).map((i) => (
-            <Grid item>
+            <Grid item key={i}>
               <Typography>{JobFavariteTeisu[Job][i]}</Typography>
               <img className={classes.btncirclestitch} alt={selectFilter[i].name} src={`${process.env.PUBLIC_URL}/pic/${selectFilter[i].imgpath}`} />
               <Typography>

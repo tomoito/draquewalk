@@ -32,7 +32,7 @@ const DisplayKokoro:React.FC = () => {
       <Grid container spacing={3}>
         {
           selectFilter2.map((i) => (
-            <Grid item>
+            <Grid item key={i}>
               <button type="button" onClick={() => addKokoroDispath(i)}>
                 <img className={classes.btncirclestitch} alt="hoge" src={`${process.env.PUBLIC_URL}/pic/${selectKokoroList[i].imgpath}`} />
               </button>

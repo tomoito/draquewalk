@@ -8,7 +8,9 @@ import {
 } from '@material-ui/core';
 
 import CustomButton from 'containers/atoms/CustomButton';
-import { colorChange, selectColor, statusChange } from 'slices/draque';
+import {
+  colorChange, selectColor, statusChange, filsterDipsKokoro,
+} from 'slices/draque';
 import type { colorKind, colorFilter } from 'slices/draque';
 import { useDispatch, useSelector } from 'react-redux';
 
@@ -69,7 +71,7 @@ const ColorSection:React.FC = () => {
 
   const handleChangeBase = (color: colorKind) => {// eslint-disable-line
     dispatch(colorChange(color));
-    dispatch(statusChange());
+    dispatch(filsterDipsKokoro());
   };
 
   return (
@@ -84,8 +86,8 @@ const ColorSection:React.FC = () => {
       } */}
         {
     colorList.map((i) => (
-      <Grid item xs={3}>
-        <CustomButton fontSize={25} defaultColor="white" themeColor={i[1]} handleChangeBase={() => handleChangeBase(i[0] as colorKind)} dispShow={i[0]} />
+      <Grid item xs={3} key={i[0]}>
+        <CustomButton fontSize={25} defaultColor={i[1]} themeColor="white" handleChangeBase={() => handleChangeBase(i[0] as colorKind)} dispShow={i[0]} />
       </Grid>
     ))
     }

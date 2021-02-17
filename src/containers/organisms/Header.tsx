@@ -76,9 +76,9 @@ const Header:React.FC = () => {
     <AppBar position="fixed" className={classes.appBar}>
       <Toolbar>
         <Typography variant="h6" noWrap>
-          ドラクエウォークのココロをカスタマイズしよう
+          ドラクエウォークのココロを検索して枠に入れてみよう
         </Typography>
-        <div className={classes.search}>
+        {/* <div className={classes.search}>
           <div className={classes.searchIcon}>
             <SearchIcon />
           </div>
@@ -90,7 +90,7 @@ const Header:React.FC = () => {
             }}
             inputProps={{ 'aria-label': 'search' }}
           />
-        </div>
+        </div> */}
       </Toolbar>
     </AppBar>
   );

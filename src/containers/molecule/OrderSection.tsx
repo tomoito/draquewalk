@@ -12,7 +12,7 @@ import type { orderFilter, orderDestAsc } from 'slices/draque';
 import { orderChange, orderChange2, orderResult } from 'slices/draque';
 import { Grid } from '@material-ui/core';
 
-const options = ['HP', 'MP', '攻撃力', '守備力', '攻撃魔法', '回復魔力'];
+const options = ['コスト', 'HP', 'MP', '攻撃力', '守備力', '攻撃魔法', '回復魔力', '攻魔複合'];
 const options2 = ['昇順', '降順'];
 
 const OrderSection:React.FC = () => {
@@ -53,7 +53,7 @@ const OrderSection:React.FC = () => {
 
             {
           options.map((i) => (
-            <MenuItem value={i}>{i}</MenuItem>
+            <MenuItem key={i} value={i}>{i}</MenuItem>
           ))
         }
 
@@ -72,7 +72,7 @@ const OrderSection:React.FC = () => {
 
             {
           options2.map((i) => (
-            <MenuItem value={i}>{i}</MenuItem>
+            <MenuItem key={i} value={i}>{i}</MenuItem>
           ))
         }
 

@@ -74,16 +74,17 @@ const OptionSection:React.FC = () => {
   return (
     <div>
       <Grid container spacing={2}>
+        <Grid item xs={4}>
+          <CustomButton fontSize={13} defaultColor="linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%)" themeColor="white" handleChangeBase={handleChangeSkill} dispShow="スキル持ち" />
+        </Grid>
         {
         (Object.keys(color) as (keyof optionFilter)[]).map((i) => (
-          <Grid item xs={4}>
+          <Grid item xs={4} key={i}>
             <CustomButton fontSize={13} defaultColor="linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%)" themeColor="white" handleChangeBase={() => handleChangeBase(i)} dispShow={i} />
           </Grid>
         ))
       }
-        <Grid item xs={4}>
-          <CustomButton fontSize={13} defaultColor="linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%)" themeColor="white" handleChangeBase={handleChangeSkill} dispShow="スキル持ち" />
-        </Grid>
+
       </Grid>
     </div>
   );
