@@ -64,7 +64,7 @@ const FilterKokoro:React.FC = () => {
         <Button onClick={() => funcJobChange('海賊')} variant="outlined" color="primary">海賊</Button> */}
       </Box>
 
-      <Grid container spacing={4}>
+      <Grid container spacing={4} justify="center">
         {
           (Object.keys(selectFilter) as (keyof kokoroFitFilter)[]).map((i) => (
             <Grid item key={i}>

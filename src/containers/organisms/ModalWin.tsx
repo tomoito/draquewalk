@@ -98,9 +98,10 @@ const ModalWin:React.FC<ModalProps> = ({
   return (
     <div>
       <Modal isOpen={modalFlg} style={modalStyle} onRequestClose={() => modalFunc(false)}>
-        <button style={{ left: '50%', backgroundColor: 'pink' }} type="button" onClick={() => modalFunc(false)}>Close Modal</button>
+        <button style={{ left: '10%', backgroundColor: 'white' }} type="button" onClick={() => modalFunc(false)}>Close</button>
 
-        {
+        <div>
+          {
           kokoroModal ? (
             <>
 
@@ -117,7 +118,7 @@ const ModalWin:React.FC<ModalProps> = ({
               </Box>
 
               <Grid container direction="row" spacing={2}>
-                <Grid item spacing={4}>
+                <Grid item spacing={4} justify="center">
                   {
                   (Object.keys(kokoroModal.status) as (keyof baseStatusFilter)[]).map((dmgUp) => (
                     <Typography>
@@ -128,7 +129,7 @@ const ModalWin:React.FC<ModalProps> = ({
                   ))
               }
                 </Grid>
-                <Grid item spacing={3}>
+                <Grid item spacing={3} justify="center">
                   {
                   (Object.keys(kokoroModal.option) as (keyof optionFilterBefore)[]).map((dmgUp) => (
                     <Typography>
@@ -155,6 +156,7 @@ const ModalWin:React.FC<ModalProps> = ({
             </>
           ) : 'poka'
         }
+        </div>
         <Box className={classes.btn}>
           <Button className={classes.btn} variant="contained" onClick={() => addKokoroDispath('1')}>{JobFavariteTeisu[jobPick]['1']}</Button>
           <Button className={classes.btn} variant="contained" onClick={() => addKokoroDispath('2')}>{JobFavariteTeisu[jobPick]['2']}</Button>

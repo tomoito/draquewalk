@@ -35,7 +35,7 @@ const CombineApp:React.FC = () => {
           <Grid container className={classes.root} spacing={2}>
             <Grid item xs={8} direction="column">
               <Grid container spacing={1} justify="center">
-                <Grid item xs={12}>
+                <Grid item xs={12} justify="center">
                   <FitKokoro />
                 </Grid>
               </Grid>

@@ -14,13 +14,21 @@
     "workbench.editor.enablePreview":false,
     "workbench.editor.showTabs": true,
     "cSpell.words": [
+      "Dispath",
+      "Waku",
+      "aban",
+      "btncirclestitch",
       "cals",
       "custombutton",
       "imgpath",
       "kensho",
+      "mixins",
       "plusplus",
+      "poka",
       "reduxjs",
-      "teisu"
+      "teisu",
+      "textalign",
+      "txtfiedl"
     ],
     
   }

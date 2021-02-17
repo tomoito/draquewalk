@@ -4,7 +4,7 @@ import Drawer from '@material-ui/core/Drawer';
 
 import {
   Box,
-  Divider, List, ListItem, ListItemText, Paper, Typography,
+  Divider, Typography,
 } from '@material-ui/core';
 import OptionSection from 'containers/molecule/OptionSection';
 import ColorSection from 'containers/molecule/ColorSection';
@@ -71,7 +71,6 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 const FilterSection:React.FC = () => {
-  const x = 'this is FilterSection';
   const classes = useStyles();
 
   return (
