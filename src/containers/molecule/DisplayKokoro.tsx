@@ -32,7 +32,7 @@ const DisplayKokoro:React.FC = () => {
 
   return (
     <div>
-      <Grid container spacing={2} justify="center">
+      <Grid container spacing={4} justify="center">
         {
           selectFilter2.map((i) => (
             <Grid item key={i}>

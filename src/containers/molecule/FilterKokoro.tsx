@@ -28,10 +28,13 @@ const useStyles = makeStyles((theme: Theme) => createStyles({
 
   content: {
     flexGrow: 1,
-    padding: theme.spacing(3),
+    padding: theme.spacing(1),
   },
   txt: {
     fontSize: '0.3rem',
+  },
+  txt2: {
+    padding: '1rem',
   },
 }));
 
@@ -60,13 +63,13 @@ const FilterKokoro:React.FC = () => {
   return (
     <div className={classesHook.content}>
       <div className={classesHook.toolbar}>
-        <Box>
+        <Box className={classesHook.txt2}>
           <FormControl component="fieldset">
             <FormLabel component="legend">職業を選択してください。</FormLabel>
             <RadioGroup row aria-label="position" name="position" defaultValue="バトマス">
               <FormControlLabel onClick={() => funcJobChange('バトルマスター')} value="バトマス" control={<Radio color="primary" />} label="バトマス" />
               <FormControlLabel onClick={() => funcJobChange('レンジャー')} value="レンジャー" control={<Radio color="primary" />} label="レンジャー" />
-              <FormControlLabel onClick={() => funcJobChange('賢者')} value="賢者" control={<Radio color="primary" />} label="賢者" />
+              <FormControlLabel onClick={() => funcJobChange('賢者')} value="賢者" control={<Radio color="primary" />} label="賢者　　" />
               <FormControlLabel onClick={() => funcJobChange('パラディン')} value="パラディン" control={<Radio color="primary" />} label="パラディン" />
               <FormControlLabel onClick={() => funcJobChange('魔法戦士')} value="魔法戦士" control={<Radio color="primary" />} label="魔法戦士" />
               <FormControlLabel onClick={() => funcJobChange('スーパースター')} value="スーパースター" control={<Radio color="primary" />} label="スーパースター" />
@@ -83,15 +86,19 @@ const FilterKokoro:React.FC = () => {
         <Button onClick={() => funcJobChange('海賊')} variant="outlined" color="primary">海賊</Button> */}
         </Box>
 
-        <Grid container spacing={4} justify="center">
+        <Grid container spacing={3} justify="center">
           {
           (Object.keys(selectFilter) as (keyof kokoroFitFilter)[]).map((i) => (
             <Grid item key={i}>
               <Typography>{JobFavariteTeisu[Job][i]}</Typography>
-              <img className={classes.btncirclestitch} alt={selectFilter[i].name} src={`${process.env.PUBLIC_URL}/pic/${selectFilter[i].imgpath}`} />
+              <Button type="button">
+
+                <img className={classes.btncirclestitch} alt={selectFilter[i].name} src={`${process.env.PUBLIC_URL}/pic/${selectFilter[i].imgpath}`} />
+
+              </Button>
+
               <Typography variant="subtitle2">
-                { i }
-                :
+
                 {
                   selectFilter[i].name === 'blank' ? '無し' : (selectFilter[i].name)
                 }
