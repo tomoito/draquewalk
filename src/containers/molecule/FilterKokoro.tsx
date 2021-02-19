@@ -62,7 +62,7 @@ const FilterKokoro:React.FC = () => {
       <div className={classesHook.toolbar}>
         <Box>
           <FormControl component="fieldset">
-            <FormLabel component="legend">!!職業を選択してください。</FormLabel>
+            <FormLabel component="legend">職業を選択してください。</FormLabel>
             <RadioGroup row aria-label="position" name="position" defaultValue="バトマス">
               <FormControlLabel onClick={() => funcJobChange('バトルマスター')} value="バトマス" control={<Radio color="primary" />} label="バトマス" />
               <FormControlLabel onClick={() => funcJobChange('レンジャー')} value="レンジャー" control={<Radio color="primary" />} label="レンジャー" />
@@ -89,7 +89,7 @@ const FilterKokoro:React.FC = () => {
             <Grid item key={i}>
               <Typography>{JobFavariteTeisu[Job][i]}</Typography>
               <img className={classes.btncirclestitch} alt={selectFilter[i].name} src={`${process.env.PUBLIC_URL}/pic/${selectFilter[i].imgpath}`} />
-              <Typography className={classesHook.txt}>
+              <Typography variant="subtitle2">
                 { i }
                 :
                 {

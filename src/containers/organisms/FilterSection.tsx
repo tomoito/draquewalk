@@ -136,7 +136,7 @@ const FilterSection:React.FC = () => {
             <MenuIcon />
           </IconButton>
           <Typography variant="h6" noWrap>
-            ドラクエウォークのココロを検索して枠に入れてみよう
+            ドラウォーク検索(Beta)
           </Typography>
         </Toolbar>
       </AppBar>

@@ -1,3 +1,4 @@
+/* eslint-disable max-len */
 /* eslint-disable @typescript-eslint/no-unsafe-return */
 import React from 'react';
 import type{
@@ -98,7 +99,7 @@ const ModalWin:React.FC<ModalProps> = ({
   return (
     <div>
       <Modal isOpen={modalFlg} style={modalStyle} onRequestClose={() => modalFunc(false)}>
-        <button style={{ left: '10%', backgroundColor: 'white' }} type="button" onClick={() => modalFunc(false)}>Close</button>
+        {/* <button style={{ left: '10%', backgroundColor: 'white' }} type="button" onClick={() => modalFunc(false)}>Close</button> */}
 
         <div>
           {
@@ -150,6 +151,7 @@ const ModalWin:React.FC<ModalProps> = ({
                   </div>
                 ) : ''
               }
+                  <Button variant="contained" type="button" onClick={() => modalFunc(false)}>Close</Button>
                 </Grid>
               </Grid>
 
@@ -163,6 +165,7 @@ const ModalWin:React.FC<ModalProps> = ({
           <Button className={classes.btn} variant="contained" onClick={() => addKokoroDispath('3')}>{JobFavariteTeisu[jobPick]['3']}</Button>
           <Button className={classes.btn} variant="contained" onClick={() => addKokoroDispath('4')}>{JobFavariteTeisu[jobPick]['4']}</Button>
         </Box>
+
       </Modal>
 
     </div>
