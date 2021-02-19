@@ -32,14 +32,14 @@ const DisplayKokoro:React.FC = () => {
 
   return (
     <div>
-      <Grid container spacing={3}>
+      <Grid container spacing={2} justify="center">
         {
           selectFilter2.map((i) => (
             <Grid item key={i}>
               <Button type="button" onClick={() => addKokoroDispath(i)}>
                 <img className={classes.btncirclestitch} alt="hoge" src={`${process.env.PUBLIC_URL}/pic/${selectKokoroList[i].imgpath}`} />
               </Button>
-              <Typography variant="h6">
+              <Typography variant="subtitle2">
                 {selectKokoroList[i].name}
               </Typography>
 

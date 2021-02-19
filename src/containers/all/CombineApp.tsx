@@ -43,7 +43,7 @@ const CombineApp:React.FC = () => {
                   <FitKokoro />
                 </Grid>
               </Grid>
-              <Grid container spacing={5}>
+              <Grid container spacing={2} justify="center">
                 <Grid item xs={12}>
                   <FilteredKokoro />
                 </Grid>
