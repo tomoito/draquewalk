@@ -18,7 +18,7 @@ const useStyles = makeStyles((theme: Theme) => createStyles({
   content: {
     flexGrow: 1,
     backgroundColor: theme.palette.background.default,
-    padding: theme.spacing(10),
+    padding: theme.spacing(2),
   },
 }));
 
@@ -34,6 +34,8 @@ const CombineApp:React.FC = () => {
       <FilterSection />
       <main className={classes.content}>
         <div className={classes.toolbar}>
+          <br />
+          <br />
           <Grid container className={classes.root} spacing={2}>
             <Grid item xs={12} direction="column" sm={8}>
               <Grid container spacing={1} justify="center">
@@ -49,7 +51,9 @@ const CombineApp:React.FC = () => {
             </Grid>
 
             <Grid item sm={4} xs={12}>
-              <Grid container spacing={2}>
+              <br />
+              <br />
+              <Grid container spacing={2} justify="center">
                 <ShowResult />
               </Grid>
             </Grid>

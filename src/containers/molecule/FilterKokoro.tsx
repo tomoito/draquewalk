@@ -14,17 +14,32 @@ import RadioGroup from '@material-ui/core/RadioGroup';
 import FormControlLabel from '@material-ui/core/FormControlLabel';
 import FormControl from '@material-ui/core/FormControl';
 import FormLabel from '@material-ui/core/FormLabel';
+import {
+  makeStyles, useTheme, Theme, createStyles,
+} from '@material-ui/core/styles';
 import classes from './FilterKokoro.module.css';
 import DataSolo from '../../Testdata/DataSolo.json';
 import {
   kokoroFitFilter, resetDispKokoro, addKokoro, optionKind, selectDamageUp, statusChange, kokoro, selectColor, selectBaseStatus, selectDipsKokoro, selectAllKokoro, filsterDipsKokoro, selectFilterKokoro, jobChange, selectJob,
 } from '../../slices/draque';
 
+const useStyles = makeStyles((theme: Theme) => createStyles({
+  toolbar: theme.mixins.toolbar,
+
+  content: {
+    flexGrow: 1,
+    padding: theme.spacing(3),
+  },
+}));
+
 const FilterKokoro:React.FC = () => {
   const x = 'test';
   const dispatch = useDispatch();
   const selectFilter = useSelector(selectDipsKokoro);
   const Job = useSelector(selectJob);
+
+  const classesHook = useStyles();
+  const theme = useTheme();
 
   const funcJobChange = (job:jobFilter) => {
     dispatch(resetDispKokoro());
@@ -40,32 +55,33 @@ const FilterKokoro:React.FC = () => {
   };
 
   return (
-    <div>
-      <Box>
-        <FormControl component="fieldset">
-          <FormLabel component="legend">職業を選択してください。</FormLabel>
-          <RadioGroup row aria-label="position" name="position" defaultValue="バトマス">
-            <FormControlLabel onClick={() => funcJobChange('バトルマスター')} value="バトマス" control={<Radio color="primary" />} label="バトマス" />
-            <FormControlLabel onClick={() => funcJobChange('レンジャー')} value="レンジャー" control={<Radio color="primary" />} label="レンジャー" />
-            <FormControlLabel onClick={() => funcJobChange('賢者')} value="賢者" control={<Radio color="primary" />} label="賢者" />
-            <FormControlLabel onClick={() => funcJobChange('パラディン')} value="パラディン" control={<Radio color="primary" />} label="パラディン" />
-            <FormControlLabel onClick={() => funcJobChange('魔法戦士')} value="魔法戦士" control={<Radio color="primary" />} label="魔法戦士" />
-            <FormControlLabel onClick={() => funcJobChange('スーパースター')} value="スーパースター" control={<Radio color="primary" />} label="スーパースター" />
-            <FormControlLabel onClick={() => funcJobChange('海賊')} value="海賊" control={<Radio color="primary" />} label="海賊" />
+    <div className={classesHook.content}>
+      <div className={classesHook.toolbar}>
+        <Box>
+          <FormControl component="fieldset">
+            <FormLabel component="legend">職業を選択してください。</FormLabel>
+            <RadioGroup row aria-label="position" name="position" defaultValue="バトマス">
+              <FormControlLabel onClick={() => funcJobChange('バトルマスター')} value="バトマス" control={<Radio color="primary" />} label="バトマス" />
+              <FormControlLabel onClick={() => funcJobChange('レンジャー')} value="レンジャー" control={<Radio color="primary" />} label="レンジャー" />
+              <FormControlLabel onClick={() => funcJobChange('賢者')} value="賢者" control={<Radio color="primary" />} label="賢者" />
+              <FormControlLabel onClick={() => funcJobChange('パラディン')} value="パラディン" control={<Radio color="primary" />} label="パラディン" />
+              <FormControlLabel onClick={() => funcJobChange('魔法戦士')} value="魔法戦士" control={<Radio color="primary" />} label="魔法戦士" />
+              <FormControlLabel onClick={() => funcJobChange('スーパースター')} value="スーパースター" control={<Radio color="primary" />} label="スーパースター" />
+              <FormControlLabel onClick={() => funcJobChange('海賊')} value="海賊" control={<Radio color="primary" />} label="海賊" />
 
-          </RadioGroup>
-        </FormControl>
-        {/* <Button onClick={() => funcJobChange('バトルマスター')} variant="outlined" color="primary">バトマス</Button>
+            </RadioGroup>
+          </FormControl>
+          {/* <Button onClick={() => funcJobChange('バトルマスター')} variant="outlined" color="primary">バトマス</Button>
         <Button onClick={() => funcJobChange('レンジャー')} variant="outlined" color="primary">レンジャー</Button>
         <Button onClick={() => funcJobChange('賢者')} variant="outlined" color="primary">賢者</Button>
         <Button onClick={() => funcJobChange('パラディン')} variant="outlined" color="primary">パラディン</Button>
         <Button onClick={() => funcJobChange('魔法戦士')} variant="outlined" color="primary">魔法戦士</Button>
         <Button onClick={() => funcJobChange('スーパースター')} variant="outlined" color="primary">スーパースター</Button>
         <Button onClick={() => funcJobChange('海賊')} variant="outlined" color="primary">海賊</Button> */}
-      </Box>
+        </Box>
 
-      <Grid container spacing={4} justify="center">
-        {
+        <Grid container spacing={4} justify="center">
+          {
           (Object.keys(selectFilter) as (keyof kokoroFitFilter)[]).map((i) => (
             <Grid item key={i}>
               <Typography>{JobFavariteTeisu[Job][i]}</Typography>
@@ -81,8 +97,8 @@ const FilterKokoro:React.FC = () => {
             </Grid>
           ))
         }
-      </Grid>
-
+        </Grid>
+      </div>
     </div>
   );
 };
