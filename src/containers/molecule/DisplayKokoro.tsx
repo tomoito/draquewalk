@@ -3,7 +3,7 @@
 /* eslint-disable import/no-unresolved */
 /* eslint-disable max-len */
 /* eslint-disable @typescript-eslint/no-unused-vars */
-import { Grid, Typography } from '@material-ui/core';
+import { Button, Grid, Typography } from '@material-ui/core';
 import ModalWin from 'containers/organisms/ModalWin';
 import React, { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
@@ -36,9 +36,9 @@ const DisplayKokoro:React.FC = () => {
         {
           selectFilter2.map((i) => (
             <Grid item key={i}>
-              <button type="button" onClick={() => addKokoroDispath(i)}>
+              <Button type="button" onClick={() => addKokoroDispath(i)}>
                 <img className={classes.btncirclestitch} alt="hoge" src={`${process.env.PUBLIC_URL}/pic/${selectKokoroList[i].imgpath}`} />
-              </button>
+              </Button>
               <Typography variant="h6">
                 {selectKokoroList[i].name}
               </Typography>
