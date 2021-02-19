@@ -1,11 +1,18 @@
+/* eslint-disable react/require-default-props */
+/* eslint-disable @typescript-eslint/no-unsafe-return */
 import React from 'react';
-import { makeStyles } from '@material-ui/core/styles';
+import { makeStyles, useTheme } from '@material-ui/core/styles';
 import Drawer from '@material-ui/core/Drawer';
 
 import {
+  AppBar,
   Box,
-  Divider, Typography,
+  CssBaseline,
+  Divider, Hidden, IconButton, Toolbar, Typography,
 } from '@material-ui/core';
+
+import MenuIcon from '@material-ui/icons/Menu';
+
 import OptionSection from 'containers/molecule/OptionSection';
 import ColorSection from 'containers/molecule/ColorSection';
 import OrderSection from 'containers/molecule/OrderSection';
@@ -16,29 +23,38 @@ const useStyles = makeStyles((theme) => ({
   root: {
     display: 'flex',
   },
-  appBar: {
-    zIndex: theme.zIndex.drawer + 1,
-  },
   drawer: {
+    [theme.breakpoints.up('md')]: {
+      width: drawerWidth,
+      flexShrink: 0,
+    },
+  },
+  appBar: {
+    [theme.breakpoints.up('md')]: {
+      width: `calc(100% - ${drawerWidth}px)`,
+      marginLeft: drawerWidth,
+    },
+  },
+  menuButton: {
+    marginRight: theme.spacing(2),
+    [theme.breakpoints.up('md')]: {
+      display: 'none',
+    },
+  },
+  // necessary for content to be below app bar
+  toolbar: theme.mixins.toolbar,
+  drawerPaper: {
     width: drawerWidth,
-    flexShrink: 0,
-    // overflowY: 'auto',
+  },
+  content: {
+    flexGrow: 1,
+    padding: theme.spacing(3),
   },
   colorSection: {
     marginLeft: '1rem',
     marginRight: '1rem',
   },
 
-  drawerPaper: {
-    width: drawerWidth,
-    // overflowY: 'auto',
-  },
-  toolbar: theme.mixins.toolbar,
-  content: {
-    flexGrow: 1,
-    backgroundColor: theme.palette.background.default,
-    padding: theme.spacing(3),
-  },
   paper: {
     height: 200,
     width: 200,
@@ -72,42 +88,90 @@ const useStyles = makeStyles((theme) => ({
 
 const FilterSection:React.FC = () => {
   const classes = useStyles();
+  const [mobileOpen, setMobileOpen] = React.useState(false);
+  const handleDrawerToggle = () => {
+    setMobileOpen(!mobileOpen);
+  };
+  const theme = useTheme();
+
+  const drawer = (
+    <div className={classes.toolbar}>
+      <Box className={classes.colorSection}>
+        <Typography className={classes.colorText}>Color</Typography>
+        <ColorSection />
+      </Box>
+      <br />
+      <Divider />
+      <Box className={classes.colorSection}>
+        <Typography className={classes.colorText}>並び替え</Typography>
+        <OrderSection />
+      </Box>
+      <br />
+      <Divider />
+      <br />
+      <Box className={classes.colorSection}>
+        <Typography className={classes.colorText}>効果</Typography>
+        <OptionSection />
+      </Box>
+      <br />
+      <br />
+      <Divider variant="middle" />
+      <br />
+    </div>
+  );
+  const container = undefined;
 
   return (
     <div className={classes.root}>
-      <Drawer
-        className={classes.drawer}
-        variant="permanent"
-        classes={{
-          paper: classes.drawerPaper,
-        }}
-        anchor="left"
-      >
-        <div className={classes.toolbar} />
-        <Box className={classes.colorSection}>
-          <Typography className={classes.colorText}>Color</Typography>
-          <ColorSection />
-        </Box>
-        <br />
-        <Divider />
-        <Box className={classes.colorSection}>
-          <Typography className={classes.colorText}>並び替え</Typography>
-          <OrderSection />
-        </Box>
-        <br />
-        <Divider />
-        <br />
-        <Box className={classes.colorSection}>
-          <Typography className={classes.colorText}>効果</Typography>
-          <OptionSection />
-        </Box>
+      <CssBaseline />
+      <AppBar position="fixed" className={classes.appBar}>
+        <Toolbar>
+          <IconButton
+            color="inherit"
+            aria-label="open drawer"
+            edge="start"
+            onClick={handleDrawerToggle}
+            className={classes.menuButton}
+          >
+            <MenuIcon />
+          </IconButton>
+          <Typography variant="h6" noWrap>
+            ドラクエウォークのココロを検索して枠に入れてみよう
+          </Typography>
+        </Toolbar>
+      </AppBar>
 
-        <br />
-        <br />
-        <Divider variant="middle" />
-        <br />
-
-      </Drawer>
+      <nav className={classes.drawer} aria-label="mailbox folders">
+        {/* The implementation can be swapped with js to avoid SEO duplication of links. */}
+        <Hidden smUp implementation="css">
+          <Drawer
+            container={container}
+            variant="temporary"
+            anchor={theme.direction === 'rtl' ? 'right' : 'left'}
+            open={mobileOpen}
+            onClose={handleDrawerToggle}
+            classes={{
+              paper: classes.drawerPaper,
+            }}
+            ModalProps={{
+              keepMounted: true, // Better open performance on mobile.
+            }}
+          >
+            {drawer}
+          </Drawer>
+        </Hidden>
+        <Hidden smDown implementation="css">
+          <Drawer
+            classes={{
+              paper: classes.drawerPaper,
+            }}
+            variant="permanent"
+            open
+          >
+            {drawer}
+          </Drawer>
+        </Hidden>
+      </nav>
 
     </div>
   );

@@ -30,12 +30,12 @@ const CombineApp:React.FC = () => {
   return (
     <div className={classes.root}>
       <CssBaseline />
-      <Header />
+      {/* <Header /> */}
       <FilterSection />
       <main className={classes.content}>
         <div className={classes.toolbar}>
           <Grid container className={classes.root} spacing={2}>
-            <Grid item xs={8} direction="column">
+            <Grid item xs={12} direction="column" sm={8}>
               <Grid container spacing={1} justify="center">
                 <Grid item xs={12} justify="center">
                   <FitKokoro />
@@ -48,7 +48,7 @@ const CombineApp:React.FC = () => {
               </Grid>
             </Grid>
 
-            <Grid item xs={3}>
+            <Grid item sm={4} xs={12}>
               <Grid container spacing={2}>
                 <ShowResult />
               </Grid>
