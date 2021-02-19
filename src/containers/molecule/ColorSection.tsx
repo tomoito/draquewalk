@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/rules-of-hooks */
 /* eslint-disable max-len */
 import React from 'react';
 
@@ -11,6 +12,7 @@ import {
 } from 'slices/draque';
 import type { colorKind } from 'slices/draque';
 import { useDispatch } from 'react-redux';
+import useGaTrackPage from 'hooks/AnaHooks';
 
 // 赤、青、緑、紫
 const colorList = [
@@ -24,6 +26,8 @@ const ColorSection:React.FC = () => {
   const dispatch = useDispatch();
 
   const handleChangeBase = (color: colorKind) => {// eslint-disable-line
+    // useGaTrackPage('/color');
+
     dispatch(colorChange(color));
     dispatch(filsterDipsKokoro());
   };

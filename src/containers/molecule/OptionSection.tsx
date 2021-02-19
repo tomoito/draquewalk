@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/rules-of-hooks */
 import React from 'react';
 
 import {
@@ -10,6 +11,7 @@ import {
 } from 'slices/draque';
 import type { optionKind, optionFilter } from 'slices/draque';
 import { useDispatch, useSelector } from 'react-redux';
+import useGaTrackPage from 'hooks/AnaHooks';
 
 const OptionSection:React.FC = () => {
   const dispatch = useDispatch();
@@ -18,6 +20,7 @@ const OptionSection:React.FC = () => {
   const handleChangeBase = (color: optionKind) => {// eslint-disable-line
     dispatch(optionChange(color));
     dispatch(filsterDipsKokoro());
+    // useGaTrackPage('/option');
   };
 
   const handleChangeSkill = () => {// eslint-disable-line

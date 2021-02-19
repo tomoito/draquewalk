@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/rules-of-hooks */
 /* eslint-disable react/jsx-props-no-spreading */
 import React from 'react';
 
@@ -9,6 +10,7 @@ import { useDispatch } from 'react-redux';
 import type { orderFilter, orderDestAsc } from 'slices/draque';
 import { orderChange, orderChange2, orderResult } from 'slices/draque';
 import { Grid } from '@material-ui/core';
+import useGaTrackPage from 'hooks/AnaHooks';
 
 const options = ['コスト', 'HP', 'MP', '攻撃力', '守備力', '攻撃魔法', '回復魔力', '攻魔複合'];
 const options2 = ['昇順', '降順'];
@@ -26,6 +28,7 @@ const OrderSection:React.FC = () => {
     setValue(event.target.value as orderFilter);
     dispatch(orderChange(event.target.value as orderFilter));
     dispatch(orderResult());
+    // useGaTrackPage('/order');
   };
   const handleChange2 = (event: React.ChangeEvent<{ value: unknown }>) => {
     setValue2(event.target.value as orderDestAsc);

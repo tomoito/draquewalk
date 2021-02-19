@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/rules-of-hooks */
 /* eslint-disable import/namespace */
 /* eslint-disable import/no-unresolved */
 /* eslint-disable max-len */
@@ -6,6 +7,7 @@ import { Grid, Typography } from '@material-ui/core';
 import ModalWin from 'containers/organisms/ModalWin';
 import React, { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
+import useGaTrackPage from 'hooks/AnaHooks';
 import {
   baseStatusFilter, optionFilterBefore, kokoroFit, kokoroFitFilter, selectKokoro, addKokoro, optionKind, selectDamageUp, statusChange, kokoro, selectColor, selectBaseStatus, selectDipsKokoro, selectAllKokoro, filsterDipsKokoro, selectFilterKokoro2,
 } from '../../slices/draque';
@@ -25,6 +27,7 @@ const DisplayKokoro:React.FC = () => {
   const addKokoroDispath = (id:string) => {
     setKokoroNum(id);
     setIsOpen(true);
+    // useGaTrackPage('/kokoro');
   };
 
   return (

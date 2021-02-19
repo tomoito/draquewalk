@@ -8,6 +8,7 @@ import FitKokoro from 'containers/organisms/FitKokoro';
 import Header from 'containers/organisms/Header';
 import ShowResult from 'containers/organisms/ShowResult';
 import React from 'react';
+import useGaTrackPage from 'hooks/AnaHooks';
 
 const useStyles = makeStyles((theme: Theme) => createStyles({
   root: {
@@ -24,6 +25,7 @@ const useStyles = makeStyles((theme: Theme) => createStyles({
 const CombineApp:React.FC = () => {
   const x = 'jpeg';
   const classes = useStyles();
+  useGaTrackPage('/');
 
   return (
     <div className={classes.root}>
